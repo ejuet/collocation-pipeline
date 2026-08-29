@@ -1,149 +1,149 @@
-{"id":"ex_001","collocation_id":"en_make_a_decision","sentence":"She made a difficult decision after speaking to her manager.","gap":{"accepted":["made"],"start":4,"end":8}}
+{"id":"ex_001","collocation_id":"en_make_a_decision","sentence":"She made a difficult decision after speaking to her manager.","gap":{"accepted":["made","makes"],"start":4,"end":8}}
 {"id":"ex_002","collocation_id":"en_take_responsibility","sentence":"He took responsibility for the error and apologized to the team.","gap":{"accepted":["took"],"start":3,"end":7}}
-{"id":"ex_003","collocation_id":"en_reach_an_agreement","sentence":"The two sides reached an agreement after several hours of talks.","gap":{"accepted":["reached"],"start":14,"end":21}}
-{"id":"ex_004","collocation_id":"en_draw_a_conclusion","sentence":"From the evidence, the jury drew a clear conclusion.","gap":{"accepted":["drew"],"start":28,"end":32}}
-{"id":"ex_005","collocation_id":"en_raise_an_objection","sentence":"Several residents raised an objection to the proposed development.","gap":{"accepted":["raised"],"start":18,"end":24}}
+{"id":"ex_003","collocation_id":"en_reach_an_agreement","sentence":"The two sides reached an agreement after several hours of talks.","gap":{"accepted":["reached","reach"],"start":14,"end":21}}
+{"id":"ex_004","collocation_id":"en_draw_a_conclusion","sentence":"From the evidence, the jury drew a clear conclusion.","gap":{"accepted":["drew","draws"],"start":28,"end":32}}
+{"id":"ex_005","collocation_id":"en_raise_an_objection","sentence":"Several residents raised an objection to the proposed development.","gap":{"accepted":["raised","raise"],"start":18,"end":24}}
 {"id":"ex_006","collocation_id":"en_pay_attention","sentence":"Please pay close attention to the safety instructions.","gap":{"accepted":["pay"],"start":7,"end":10}}
 {"id":"ex_007","collocation_id":"en_bear_in_mind","sentence":"Bear in mind that the deadline may change.","gap":{"accepted":["Bear"],"start":0,"end":4}}
-{"id":"ex_008","collocation_id":"en_take_into_account","sentence":"We took the additional costs into account before approving the plan.","gap":{"accepted":["took"],"start":3,"end":7}}
-{"id":"ex_009","collocation_id":"en_come_to_terms","sentence":"She eventually came to terms with the loss.","gap":{"accepted":["came"],"start":15,"end":19}}
-{"id":"ex_010","collocation_id":"en_keep_in_touch","sentence":"We still keep in touch with our former neighbors.","gap":{"accepted":["keep"],"start":9,"end":13}}
+{"id":"ex_008","collocation_id":"en_take_into_account","sentence":"We took the additional costs into account before approving the plan.","gap":{"accepted":["took","take"],"start":3,"end":7}}
+{"id":"ex_009","collocation_id":"en_come_to_terms","sentence":"She eventually came to terms with the loss.","gap":{"accepted":["came","comes"],"start":15,"end":19}}
+{"id":"ex_010","collocation_id":"en_keep_in_touch","sentence":"We still keep in touch with our former neighbors.","gap":{"accepted":["keep","kept"],"start":9,"end":13}}
 {"id":"ex_011","collocation_id":"en_make_amends","sentence":"He tried to make amends by replacing what he had damaged.","gap":{"accepted":["make"],"start":12,"end":16}}
-{"id":"ex_012","collocation_id":"en_take_exception","sentence":"She took exception to his dismissive remark.","gap":{"accepted":["took"],"start":4,"end":8}}
+{"id":"ex_012","collocation_id":"en_take_exception","sentence":"She took exception to his dismissive remark.","gap":{"accepted":["took","takes"],"start":4,"end":8}}
 {"id":"ex_013","collocation_id":"en_give_rise_to","sentence":"The policy could give rise to serious legal problems.","gap":{"accepted":["give"],"start":17,"end":21}}
 {"id":"ex_014","collocation_id":"en_take_heed","sentence":"You would do well to take heed of her warning.","gap":{"accepted":["take"],"start":21,"end":25}}
 {"id":"ex_015","collocation_id":"en_hold_sway","sentence":"For decades, the old family held sway over local politics.","gap":{"accepted":["held"],"start":28,"end":32}}
-{"id":"ex_016","collocation_id":"en_wreak_havoc","sentence":"The storm wreaked havoc across the coastal villages.","gap":{"accepted":["wreaked"],"start":10,"end":17}}
-{"id":"ex_017","collocation_id":"en_strike_a_bargain","sentence":"After some negotiation, they struck a bargain.","gap":{"accepted":["struck"],"start":29,"end":35}}
-{"id":"ex_018","collocation_id":"en_cast_doubt","sentence":"The new evidence cast doubt on his account of events.","gap":{"accepted":["cast"],"start":17,"end":21}}
-{"id":"ex_019","collocation_id":"en_shed_light","sentence":"The report sheds light on how the fraud was carried out.","gap":{"accepted":["sheds"],"start":11,"end":16}}
-{"id":"ex_020","collocation_id":"en_brook_no_opposition","sentence":"The headmaster brooked no opposition from the staff.","gap":{"accepted":["brooked"],"start":15,"end":22}}
+{"id":"ex_016","collocation_id":"en_wreak_havoc","sentence":"The storm wreaked havoc across the coastal villages.","gap":{"accepted":["wreaked","wreaks"],"start":10,"end":17}}
+{"id":"ex_017","collocation_id":"en_strike_a_bargain","sentence":"After some negotiation, they struck a bargain.","gap":{"accepted":["struck","strike"],"start":29,"end":35}}
+{"id":"ex_018","collocation_id":"en_cast_doubt","sentence":"The new evidence cast doubt on his account of events.","gap":{"accepted":["cast","casts"],"start":17,"end":21}}
+{"id":"ex_019","collocation_id":"en_shed_light","sentence":"The report sheds light on how the fraud was carried out.","gap":{"accepted":["sheds","shed"],"start":11,"end":16}}
+{"id":"ex_020","collocation_id":"en_brook_no_opposition","sentence":"The headmaster brooked no opposition from the staff.","gap":{"accepted":["brooked","brooks"],"start":15,"end":22}}
 {"id":"ex_021","collocation_id":"en_bide_ones_time","sentence":"He decided to bide his time until a better opportunity arose.","gap":{"accepted":["bide"],"start":14,"end":18}}
-{"id":"ex_022","collocation_id":"en_take_umbrage","sentence":"She took umbrage at the suggestion that she had been careless.","gap":{"accepted":["took"],"start":4,"end":8}}
+{"id":"ex_022","collocation_id":"en_take_umbrage","sentence":"She took umbrage at the suggestion that she had been careless.","gap":{"accepted":["took","takes"],"start":4,"end":8}}
 {"id":"ex_023","collocation_id":"en_curry_favor","sentence":"He was accused of trying to curry favor with senior officials.","gap":{"accepted":["curry"],"start":28,"end":33}}
-{"id":"ex_024","collocation_id":"en_pay_heed","sentence":"Few people paid heed to the early warnings.","gap":{"accepted":["paid"],"start":11,"end":15}}
-{"id":"ex_025","collocation_id":"en_hold_ones_tongue","sentence":"She held her tongue rather than start an argument.","gap":{"accepted":["held"],"start":4,"end":8}}
+{"id":"ex_024","collocation_id":"en_pay_heed","sentence":"Few people paid heed to the early warnings.","gap":{"accepted":["paid","pay"],"start":11,"end":15}}
+{"id":"ex_025","collocation_id":"en_hold_ones_tongue","sentence":"She held her tongue rather than start an argument.","gap":{"accepted":["held","holds"],"start":4,"end":8}}
 {"id":"ex_026","collocation_id":"en_take_leave","sentence":"They took leave of their hosts just before midnight.","gap":{"accepted":["took"],"start":5,"end":9}}
 {"id":"ex_027","collocation_id":"en_make_haste","sentence":"We must make haste if we are to catch the last train.","gap":{"accepted":["make"],"start":8,"end":12}}
-{"id":"ex_028","collocation_id":"en_take_pains","sentence":"She took great pains to verify every figure in the report.","gap":{"accepted":["took"],"start":4,"end":8}}
+{"id":"ex_028","collocation_id":"en_take_pains","sentence":"She took great pains to verify every figure in the report.","gap":{"accepted":["took","takes"],"start":4,"end":8}}
 {"id":"ex_029","collocation_id":"en_keep_vigil","sentence":"The family kept vigil beside his hospital bed through the night.","gap":{"accepted":["kept"],"start":11,"end":15}}
-{"id":"ex_030","collocation_id":"en_bear_witness","sentence":"Several witnesses bore witness to the attack.","gap":{"accepted":["bore"],"start":18,"end":22}}
+{"id":"ex_030","collocation_id":"en_bear_witness","sentence":"Several witnesses bore witness to the attack.","gap":{"accepted":["bore","bear"],"start":18,"end":22}}
 {"id":"ex_031","collocation_id":"en_make_do","sentence":"We had no oven, so we made do with a small camping stove.","gap":{"accepted":["made"],"start":22,"end":26}}
-{"id":"ex_032","collocation_id":"en_hold_court","sentence":"The ambassador held court in the hotel lobby after dinner.","gap":{"accepted":["held"],"start":15,"end":19}}
+{"id":"ex_032","collocation_id":"en_hold_court","sentence":"The ambassador held court in the hotel lobby after dinner.","gap":{"accepted":["held","holds"],"start":15,"end":19}}
 {"id":"ex_033","collocation_id":"en_keep_counsel","sentence":"He kept counsel about the negotiations until they were complete.","gap":{"accepted":["kept"],"start":3,"end":7}}
-{"id":"ex_034","collocation_id":"en_take_stock","sentence":"At the end of the year, the company took stock of its progress.","gap":{"accepted":["took"],"start":36,"end":40}}
+{"id":"ex_034","collocation_id":"en_take_stock","sentence":"At the end of the year, the company took stock of its progress.","gap":{"accepted":["took","takes"],"start":36,"end":40}}
 {"id":"ex_035","collocation_id":"en_make_merry","sentence":"The villagers made merry until well after midnight.","gap":{"accepted":["made"],"start":14,"end":18}}
-{"id":"ex_036","collocation_id":"en_fall_prey","sentence":"Many elderly people fell prey to the scam.","gap":{"accepted":["fell"],"start":20,"end":24}}
+{"id":"ex_036","collocation_id":"en_fall_prey","sentence":"Many elderly people fell prey to the scam.","gap":{"accepted":["fell","fall"],"start":20,"end":24}}
 {"id":"ex_037","collocation_id":"en_give_chase","sentence":"The guards gave chase when the prisoner escaped.","gap":{"accepted":["gave"],"start":11,"end":15}}
-{"id":"ex_038","collocation_id":"en_lay_waste","sentence":"The invading army laid waste to several towns.","gap":{"accepted":["laid"],"start":18,"end":22}}
+{"id":"ex_038","collocation_id":"en_lay_waste","sentence":"The invading army laid waste to several towns.","gap":{"accepted":["laid","lays"],"start":18,"end":22}}
 {"id":"ex_039","collocation_id":"en_take_heart","sentence":"Take heart; the situation is not as hopeless as it seems.","gap":{"accepted":["Take"],"start":0,"end":4}}
 {"id":"ex_040","collocation_id":"en_lose_heart","sentence":"She began to lose heart after months of unsuccessful applications.","gap":{"accepted":["lose"],"start":13,"end":17}}
-{"id":"ex_041","collocation_id":"en_keep_faith","sentence":"Despite the pressure, he kept faith with his supporters.","gap":{"accepted":["kept"],"start":25,"end":29}}
+{"id":"ex_041","collocation_id":"en_keep_faith","sentence":"Despite the pressure, he kept faith with his supporters.","gap":{"accepted":["kept","keeps"],"start":25,"end":29}}
 {"id":"ex_042","collocation_id":"en_make_light_of","sentence":"He made light of the injury, though it was clearly painful.","gap":{"accepted":["made"],"start":3,"end":7}}
-{"id":"ex_043","collocation_id":"en_take_issue","sentence":"Several experts took issue with the report's conclusions.","gap":{"accepted":["took"],"start":16,"end":20}}
-{"id":"ex_044","collocation_id":"en_take_fright","sentence":"The horse took fright at the sudden noise.","gap":{"accepted":["took"],"start":10,"end":14}}
+{"id":"ex_043","collocation_id":"en_take_issue","sentence":"Several experts took issue with the report's conclusions.","gap":{"accepted":["took","take"],"start":16,"end":20}}
+{"id":"ex_044","collocation_id":"en_take_fright","sentence":"The horse took fright at the sudden noise.","gap":{"accepted":["took","takes"],"start":10,"end":14}}
 {"id":"ex_045","collocation_id":"en_strike_camp","sentence":"At dawn, the soldiers struck camp and moved north.","gap":{"accepted":["struck"],"start":22,"end":28}}
-{"id":"ex_046","collocation_id":"en_hold_fast","sentence":"The climbers held fast to the rope in the high winds.","gap":{"accepted":["held"],"start":13,"end":17}}
+{"id":"ex_046","collocation_id":"en_hold_fast","sentence":"The climbers held fast to the rope in the high winds.","gap":{"accepted":["held","hold"],"start":13,"end":17}}
 {"id":"ex_047","collocation_id":"en_make_free_with","sentence":"He made free with other people's belongings whenever he visited.","gap":{"accepted":["made"],"start":3,"end":7}}
 {"id":"ex_048","collocation_id":"en_keep_company","sentence":"She kept company with writers and artists in her youth.","gap":{"accepted":["kept"],"start":4,"end":8}}
-{"id":"ex_049","collocation_id":"en_take_counsel","sentence":"The king took counsel with his advisers before replying.","gap":{"accepted":["took"],"start":9,"end":13}}
-{"id":"ex_050","collocation_id":"en_bear_fruit","sentence":"Their careful planning finally bore fruit.","gap":{"accepted":["bore"],"start":31,"end":35}}
-{"id":"ex_051","collocation_id":"en_bear_the_brunt","sentence":"Small businesses bore the brunt of the tax increase.","gap":{"accepted":["bore"],"start":17,"end":21}}
+{"id":"ex_049","collocation_id":"en_take_counsel","sentence":"The king took counsel with his advisers before replying.","gap":{"accepted":["took","takes"],"start":9,"end":13}}
+{"id":"ex_050","collocation_id":"en_bear_fruit","sentence":"Their careful planning finally bore fruit.","gap":{"accepted":["bore","bears"],"start":31,"end":35}}
+{"id":"ex_051","collocation_id":"en_bear_the_brunt","sentence":"Small businesses bore the brunt of the tax increase.","gap":{"accepted":["bore","bear"],"start":17,"end":21}}
 {"id":"ex_052","collocation_id":"en_take_ones_bearings","sentence":"We stopped to take our bearings before continuing through the forest.","gap":{"accepted":["take"],"start":14,"end":18}}
 {"id":"ex_053","collocation_id":"en_hold_forth","sentence":"He held forth on the subject for nearly an hour.","gap":{"accepted":["held"],"start":3,"end":7}}
 {"id":"ex_054","collocation_id":"en_give_credence","sentence":"I would not give much credence to that rumor.","gap":{"accepted":["give"],"start":12,"end":16}}
-{"id":"ex_055","collocation_id":"en_take_liberties","sentence":"The journalist took liberties with several details of the story.","gap":{"accepted":["took"],"start":15,"end":19}}
-{"id":"ex_056","collocation_id":"en_make_common_cause","sentence":"The two rivals made common cause against the proposed law.","gap":{"accepted":["made"],"start":15,"end":19}}
-{"id":"ex_057","collocation_id":"en_fall_into_disrepute","sentence":"The institution fell into disrepute after the scandal.","gap":{"accepted":["fell"],"start":16,"end":20}}
-{"id":"ex_058","collocation_id":"en_bring_to_bear","sentence":"She brought all her experience to bear on the problem.","gap":{"accepted":["brought"],"start":4,"end":11}}
+{"id":"ex_055","collocation_id":"en_take_liberties","sentence":"The journalist took liberties with several details of the story.","gap":{"accepted":["took","takes"],"start":15,"end":19}}
+{"id":"ex_056","collocation_id":"en_make_common_cause","sentence":"The two rivals made common cause against the proposed law.","gap":{"accepted":["made","make"],"start":15,"end":19}}
+{"id":"ex_057","collocation_id":"en_fall_into_disrepute","sentence":"The institution fell into disrepute after the scandal.","gap":{"accepted":["fell","falls"],"start":16,"end":20}}
+{"id":"ex_058","collocation_id":"en_bring_to_bear","sentence":"She brought all her experience to bear on the problem.","gap":{"accepted":["brought","brings"],"start":4,"end":11}}
 {"id":"ex_059","collocation_id":"en_come_to_pass","sentence":"Everything happened exactly as the old prophecy had come to pass.","gap":{"accepted":["come"],"start":52,"end":56}}
-{"id":"ex_060","collocation_id":"en_leave_no_stone_unturned","sentence":"The detectives left no stone unturned in their search for evidence.","gap":{"accepted":["left"],"start":15,"end":19}}
+{"id":"ex_060","collocation_id":"en_leave_no_stone_unturned","sentence":"The detectives left no stone unturned in their search for evidence.","gap":{"accepted":["left","leave"],"start":15,"end":19}}
 {"id":"ex_061","collocation_id":"en_take_to_task","sentence":"The minister was taken to task for misleading Parliament.","gap":{"accepted":["taken"],"start":17,"end":22}}
-{"id":"ex_062","collocation_id":"en_hold_in_contempt","sentence":"The judge held the defendant in contempt of court.","gap":{"accepted":["held"],"start":10,"end":14}}
+{"id":"ex_062","collocation_id":"en_hold_in_contempt","sentence":"The judge held the defendant in contempt of court.","gap":{"accepted":["held","holds"],"start":10,"end":14}}
 {"id":"ex_063","collocation_id":"en_give_short_shrift","sentence":"His concerns were given short shrift by the committee.","gap":{"accepted":["given"],"start":18,"end":23}}
-{"id":"ex_064","collocation_id":"en_make_short_work_of","sentence":"The team made short work of the weaker opposition.","gap":{"accepted":["made"],"start":9,"end":13}}
+{"id":"ex_064","collocation_id":"en_make_short_work_of","sentence":"The team made short work of the weaker opposition.","gap":{"accepted":["made","makes"],"start":9,"end":13}}
 {"id":"ex_065","collocation_id":"en_take_ones_leave","sentence":"After thanking everyone, she took her leave.","gap":{"accepted":["took"],"start":29,"end":33}}
-{"id":"ex_066","collocation_id":"en_bear_a_grudge","sentence":"He still bears a grudge against his former business partner.","gap":{"accepted":["bears"],"start":9,"end":14}}
+{"id":"ex_066","collocation_id":"en_bear_a_grudge","sentence":"He still bears a grudge against his former business partner.","gap":{"accepted":["bears","bore"],"start":9,"end":14}}
 {"id":"ex_067","collocation_id":"en_hold_a_grudge","sentence":"She has held a grudge for years.","gap":{"accepted":["held"],"start":8,"end":12}}
 {"id":"ex_068","collocation_id":"en_seek_redress","sentence":"The victims are seeking redress through the courts.","gap":{"accepted":["seeking"],"start":16,"end":23}}
-{"id":"ex_069","collocation_id":"en_render_assistance","sentence":"Two volunteers rendered assistance at the scene.","gap":{"accepted":["rendered"],"start":15,"end":23}}
-{"id":"ex_070","collocation_id":"en_render_homage","sentence":"The delegation rendered homage to the fallen soldiers.","gap":{"accepted":["rendered"],"start":15,"end":23}}
-{"id":"ex_071","collocation_id":"en_render_judgment","sentence":"The court rendered judgment in favor of the claimant.","gap":{"accepted":["rendered"],"start":10,"end":18}}
-{"id":"ex_072","collocation_id":"en_render_an_account","sentence":"The treasurer rendered an account of all expenses.","gap":{"accepted":["rendered"],"start":14,"end":22}}
-{"id":"ex_073","collocation_id":"en_tender_an_apology","sentence":"He tendered an apology for his remarks.","gap":{"accepted":["tendered"],"start":3,"end":11}}
+{"id":"ex_069","collocation_id":"en_render_assistance","sentence":"Two volunteers rendered assistance at the scene.","gap":{"accepted":["rendered","render"],"start":15,"end":23}}
+{"id":"ex_070","collocation_id":"en_render_homage","sentence":"The delegation rendered homage to the fallen soldiers.","gap":{"accepted":["rendered","renders"],"start":15,"end":23}}
+{"id":"ex_071","collocation_id":"en_render_judgment","sentence":"The court rendered judgment in favor of the claimant.","gap":{"accepted":["rendered","renders"],"start":10,"end":18}}
+{"id":"ex_072","collocation_id":"en_render_an_account","sentence":"The treasurer rendered an account of all expenses.","gap":{"accepted":["rendered","renders"],"start":14,"end":22}}
+{"id":"ex_073","collocation_id":"en_tender_an_apology","sentence":"He tendered an apology for his remarks.","gap":{"accepted":["tendered","tenders"],"start":3,"end":11}}
 {"id":"ex_074","collocation_id":"en_tender_ones_resignation","sentence":"She tendered her resignation the following morning.","gap":{"accepted":["tendered"],"start":4,"end":12}}
-{"id":"ex_075","collocation_id":"en_tender_advice","sentence":"The consultant tendered advice on how to proceed.","gap":{"accepted":["tendered"],"start":15,"end":23}}
-{"id":"ex_076","collocation_id":"en_lodge_a_complaint","sentence":"Several passengers lodged a complaint with the airline.","gap":{"accepted":["lodged"],"start":19,"end":25}}
-{"id":"ex_077","collocation_id":"en_lodge_an_objection","sentence":"The defense lodged an objection to the question.","gap":{"accepted":["lodged"],"start":12,"end":18}}
-{"id":"ex_078","collocation_id":"en_level_a_charge","sentence":"The prosecutor leveled a charge of fraud against him.","gap":{"accepted":["leveled"],"start":15,"end":22}}
-{"id":"ex_079","collocation_id":"en_level_criticism","sentence":"The report leveled strong criticism at the agency.","gap":{"accepted":["leveled"],"start":11,"end":18}}
-{"id":"ex_080","collocation_id":"en_levy_a_tax","sentence":"The government levied a new tax on luxury imports.","gap":{"accepted":["levied"],"start":15,"end":21}}
-{"id":"ex_081","collocation_id":"en_levy_a_fine","sentence":"The court levied a fine of five thousand euros.","gap":{"accepted":["levied"],"start":10,"end":16}}
-{"id":"ex_082","collocation_id":"en_levy_war","sentence":"The kingdom levied war against its northern neighbor.","gap":{"accepted":["levied"],"start":12,"end":18}}
-{"id":"ex_083","collocation_id":"en_plead_ignorance","sentence":"He pleaded ignorance when asked about the missing documents.","gap":{"accepted":["pleaded"],"start":3,"end":10}}
-{"id":"ex_084","collocation_id":"en_plead_guilty","sentence":"She pleaded guilty to the lesser charge.","gap":{"accepted":["pleaded"],"start":4,"end":11}}
-{"id":"ex_085","collocation_id":"en_plead_ones_case","sentence":"The lawyer pleaded his case before the appeals court.","gap":{"accepted":["pleaded"],"start":11,"end":18}}
-{"id":"ex_086","collocation_id":"en_profess_ignorance","sentence":"The official professed ignorance of the arrangement.","gap":{"accepted":["professed"],"start":13,"end":22}}
-{"id":"ex_087","collocation_id":"en_profess_allegiance","sentence":"The soldiers professed allegiance to the new ruler.","gap":{"accepted":["professed"],"start":13,"end":22}}
-{"id":"ex_088","collocation_id":"en_profess_admiration","sentence":"She professed great admiration for the novelist.","gap":{"accepted":["professed"],"start":4,"end":13}}
-{"id":"ex_089","collocation_id":"en_command_respect","sentence":"Her calm manner commands respect.","gap":{"accepted":["commands"],"start":16,"end":24}}
-{"id":"ex_090","collocation_id":"en_command_attention","sentence":"The unusual display commanded everyone's attention.","gap":{"accepted":["commanded"],"start":20,"end":29}}
-{"id":"ex_091","collocation_id":"en_command_a_view","sentence":"The terrace commands a magnificent view of the valley.","gap":{"accepted":["commands"],"start":12,"end":20}}
-{"id":"ex_092","collocation_id":"en_command_a_premium","sentence":"Properties in that district command a premium.","gap":{"accepted":["command"],"start":28,"end":35}}
+{"id":"ex_075","collocation_id":"en_tender_advice","sentence":"The consultant tendered advice on how to proceed.","gap":{"accepted":["tendered","tenders"],"start":15,"end":23}}
+{"id":"ex_076","collocation_id":"en_lodge_a_complaint","sentence":"Several passengers lodged a complaint with the airline.","gap":{"accepted":["lodged","lodge"],"start":19,"end":25}}
+{"id":"ex_077","collocation_id":"en_lodge_an_objection","sentence":"The defense lodged an objection to the question.","gap":{"accepted":["lodged","lodges"],"start":12,"end":18}}
+{"id":"ex_078","collocation_id":"en_level_a_charge","sentence":"The prosecutor leveled a charge of fraud against him.","gap":{"accepted":["leveled","levels"],"start":15,"end":22}}
+{"id":"ex_079","collocation_id":"en_level_criticism","sentence":"The report leveled strong criticism at the agency.","gap":{"accepted":["leveled","levels"],"start":11,"end":18}}
+{"id":"ex_080","collocation_id":"en_levy_a_tax","sentence":"The government levied a new tax on luxury imports.","gap":{"accepted":["levied","levies"],"start":15,"end":21}}
+{"id":"ex_081","collocation_id":"en_levy_a_fine","sentence":"The court levied a fine of five thousand euros.","gap":{"accepted":["levied","levies"],"start":10,"end":16}}
+{"id":"ex_082","collocation_id":"en_levy_war","sentence":"The kingdom levied war against its northern neighbor.","gap":{"accepted":["levied","levies"],"start":12,"end":18}}
+{"id":"ex_083","collocation_id":"en_plead_ignorance","sentence":"He pleaded ignorance when asked about the missing documents.","gap":{"accepted":["pleaded","pleads"],"start":3,"end":10}}
+{"id":"ex_084","collocation_id":"en_plead_guilty","sentence":"She pleaded guilty to the lesser charge.","gap":{"accepted":["pleaded","pleads"],"start":4,"end":11}}
+{"id":"ex_085","collocation_id":"en_plead_ones_case","sentence":"The lawyer pleaded his case before the appeals court.","gap":{"accepted":["pleaded","pleads"],"start":11,"end":18}}
+{"id":"ex_086","collocation_id":"en_profess_ignorance","sentence":"The official professed ignorance of the arrangement.","gap":{"accepted":["professed","professes"],"start":13,"end":22}}
+{"id":"ex_087","collocation_id":"en_profess_allegiance","sentence":"The soldiers professed allegiance to the new ruler.","gap":{"accepted":["professed","profess"],"start":13,"end":22}}
+{"id":"ex_088","collocation_id":"en_profess_admiration","sentence":"She professed great admiration for the novelist.","gap":{"accepted":["professed","professes"],"start":4,"end":13}}
+{"id":"ex_089","collocation_id":"en_command_respect","sentence":"Her calm manner commands respect.","gap":{"accepted":["commands","commanded"],"start":16,"end":24}}
+{"id":"ex_090","collocation_id":"en_command_attention","sentence":"The unusual display commanded everyone's attention.","gap":{"accepted":["commanded","commands"],"start":20,"end":29}}
+{"id":"ex_091","collocation_id":"en_command_a_view","sentence":"The terrace commands a magnificent view of the valley.","gap":{"accepted":["commands","commanded"],"start":12,"end":20}}
+{"id":"ex_092","collocation_id":"en_command_a_premium","sentence":"Properties in that district command a premium.","gap":{"accepted":["command","commanded"],"start":28,"end":35}}
 {"id":"ex_093","collocation_id":"en_court_disaster","sentence":"Ignoring the warnings would be courting disaster.","gap":{"accepted":["courting"],"start":31,"end":39}}
-{"id":"ex_094","collocation_id":"en_court_controversy","sentence":"The company courted controversy with the campaign.","gap":{"accepted":["courted"],"start":12,"end":19}}
-{"id":"ex_095","collocation_id":"en_court_favor","sentence":"He openly courted favor with wealthy donors.","gap":{"accepted":["courted"],"start":10,"end":17}}
-{"id":"ex_096","collocation_id":"en_court_suspicion","sentence":"His secretive behavior courted suspicion.","gap":{"accepted":["courted"],"start":23,"end":30}}
-{"id":"ex_097","collocation_id":"en_incur_a_debt","sentence":"The business incurred a large debt during the expansion.","gap":{"accepted":["incurred"],"start":13,"end":21}}
+{"id":"ex_094","collocation_id":"en_court_controversy","sentence":"The company courted controversy with the campaign.","gap":{"accepted":["courted","courts"],"start":12,"end":19}}
+{"id":"ex_095","collocation_id":"en_court_favor","sentence":"He openly courted favor with wealthy donors.","gap":{"accepted":["courted","courts"],"start":10,"end":17}}
+{"id":"ex_096","collocation_id":"en_court_suspicion","sentence":"His secretive behavior courted suspicion.","gap":{"accepted":["courted","courts"],"start":23,"end":30}}
+{"id":"ex_097","collocation_id":"en_incur_a_debt","sentence":"The business incurred a large debt during the expansion.","gap":{"accepted":["incurred","incurs"],"start":13,"end":21}}
 {"id":"ex_098","collocation_id":"en_incur_a_loss","sentence":"The company incurred a heavy loss last quarter.","gap":{"accepted":["incurred"],"start":12,"end":20}}
-{"id":"ex_099","collocation_id":"en_incur_wrath","sentence":"His remarks incurred the wrath of the committee.","gap":{"accepted":["incurred"],"start":12,"end":20}}
-{"id":"ex_100","collocation_id":"en_incur_displeasure","sentence":"The decision incurred widespread displeasure.","gap":{"accepted":["incurred"],"start":13,"end":21}}
+{"id":"ex_099","collocation_id":"en_incur_wrath","sentence":"His remarks incurred the wrath of the committee.","gap":{"accepted":["incurred","incurs"],"start":12,"end":20}}
+{"id":"ex_100","collocation_id":"en_incur_displeasure","sentence":"The decision incurred widespread displeasure.","gap":{"accepted":["incurred","incurs"],"start":13,"end":21}}
 {"id":"ex_101","collocation_id":"en_incur_liability","sentence":"You may incur liability if you ignore the safety rules.","gap":{"accepted":["incur"],"start":8,"end":13}}
-{"id":"ex_102","collocation_id":"en_exact_revenge","sentence":"She exacted revenge years after the betrayal.","gap":{"accepted":["exacted"],"start":4,"end":11}}
-{"id":"ex_103","collocation_id":"en_exact_a_toll","sentence":"The long drought exacted a terrible toll on farmers.","gap":{"accepted":["exacted"],"start":17,"end":24}}
-{"id":"ex_104","collocation_id":"en_exact_payment","sentence":"The landlord exacted payment in advance.","gap":{"accepted":["exacted"],"start":13,"end":20}}
-{"id":"ex_105","collocation_id":"en_exact_obedience","sentence":"The commander exacted strict obedience from his troops.","gap":{"accepted":["exacted"],"start":14,"end":21}}
-{"id":"ex_106","collocation_id":"en_mete_out_punishment","sentence":"The judge meted out a harsh punishment.","gap":{"accepted":["meted"],"start":10,"end":15}}
+{"id":"ex_102","collocation_id":"en_exact_revenge","sentence":"She exacted revenge years after the betrayal.","gap":{"accepted":["exacted","exacts"],"start":4,"end":11}}
+{"id":"ex_103","collocation_id":"en_exact_a_toll","sentence":"The long drought exacted a terrible toll on farmers.","gap":{"accepted":["exacted","exacts"],"start":17,"end":24}}
+{"id":"ex_104","collocation_id":"en_exact_payment","sentence":"The landlord exacted payment in advance.","gap":{"accepted":["exacted","exacts"],"start":13,"end":20}}
+{"id":"ex_105","collocation_id":"en_exact_obedience","sentence":"The commander exacted strict obedience from his troops.","gap":{"accepted":["exacted","exacts"],"start":14,"end":21}}
+{"id":"ex_106","collocation_id":"en_mete_out_punishment","sentence":"The judge meted out a harsh punishment.","gap":{"accepted":["meted","metes"],"start":10,"end":15}}
 {"id":"ex_107","collocation_id":"en_dispense_justice","sentence":"The court is expected to dispense justice fairly.","gap":{"accepted":["dispense"],"start":25,"end":33}}
 {"id":"ex_108","collocation_id":"en_dispense_with_formalities","sentence":"We can dispense with formalities and get straight to business.","gap":{"accepted":["dispense"],"start":7,"end":15}}
-{"id":"ex_109","collocation_id":"en_bestow_an_honor","sentence":"The university bestowed an honor on the retiring professor.","gap":{"accepted":["bestowed"],"start":15,"end":23}}
-{"id":"ex_110","collocation_id":"en_bestow_a_gift","sentence":"The queen bestowed a gift upon the visiting diplomat.","gap":{"accepted":["bestowed"],"start":10,"end":18}}
-{"id":"ex_111","collocation_id":"en_confer_a_benefit","sentence":"The new status confers a number of benefits on members.","gap":{"accepted":["confers"],"start":15,"end":22}}
+{"id":"ex_109","collocation_id":"en_bestow_an_honor","sentence":"The university bestowed an honor on the retiring professor.","gap":{"accepted":["bestowed","bestows"],"start":15,"end":23}}
+{"id":"ex_110","collocation_id":"en_bestow_a_gift","sentence":"The queen bestowed a gift upon the visiting diplomat.","gap":{"accepted":["bestowed","bestows"],"start":10,"end":18}}
+{"id":"ex_111","collocation_id":"en_confer_a_benefit","sentence":"The new status confers a number of benefits on members.","gap":{"accepted":["confers","conferred"],"start":15,"end":22}}
 {"id":"ex_112","collocation_id":"en_confer_an_advantage","sentence":"Experience can confer an advantage in negotiations.","gap":{"accepted":["confer"],"start":15,"end":21}}
-{"id":"ex_113","collocation_id":"en_confer_authority","sentence":"The constitution confers authority on the elected assembly.","gap":{"accepted":["confers"],"start":17,"end":24}}
+{"id":"ex_113","collocation_id":"en_confer_authority","sentence":"The constitution confers authority on the elected assembly.","gap":{"accepted":["confers","conferred"],"start":17,"end":24}}
 {"id":"ex_114","collocation_id":"en_confer_legitimacy","sentence":"Recognition from the court would confer legitimacy on the new government.","gap":{"accepted":["confer"],"start":33,"end":39}}
-{"id":"ex_115","collocation_id":"en_accord_respect","sentence":"The hosts accorded their guests every respect.","gap":{"accepted":["accorded"],"start":10,"end":18}}
-{"id":"ex_116","collocation_id":"en_accord_recognition","sentence":"The treaty accorded formal recognition to the new state.","gap":{"accepted":["accorded"],"start":11,"end":19}}
-{"id":"ex_117","collocation_id":"en_accord_priority","sentence":"The committee accorded priority to urgent cases.","gap":{"accepted":["accorded"],"start":14,"end":22}}
-{"id":"ex_118","collocation_id":"en_grant_clemency","sentence":"The governor granted clemency to three prisoners.","gap":{"accepted":["granted"],"start":13,"end":20}}
-{"id":"ex_119","collocation_id":"en_grant_leave","sentence":"The officer granted him leave to return home.","gap":{"accepted":["granted"],"start":12,"end":19}}
-{"id":"ex_120","collocation_id":"en_grant_an_audience","sentence":"The president granted the delegation an audience.","gap":{"accepted":["granted"],"start":14,"end":21}}
+{"id":"ex_115","collocation_id":"en_accord_respect","sentence":"The hosts accorded their guests every respect.","gap":{"accepted":["accorded","accord"],"start":10,"end":18}}
+{"id":"ex_116","collocation_id":"en_accord_recognition","sentence":"The treaty accorded formal recognition to the new state.","gap":{"accepted":["accorded","accords"],"start":11,"end":19}}
+{"id":"ex_117","collocation_id":"en_accord_priority","sentence":"The committee accorded priority to urgent cases.","gap":{"accepted":["accorded","accords"],"start":14,"end":22}}
+{"id":"ex_118","collocation_id":"en_grant_clemency","sentence":"The governor granted clemency to three prisoners.","gap":{"accepted":["granted","grants"],"start":13,"end":20}}
+{"id":"ex_119","collocation_id":"en_grant_leave","sentence":"The officer granted him leave to return home.","gap":{"accepted":["granted","grants"],"start":12,"end":19}}
+{"id":"ex_120","collocation_id":"en_grant_an_audience","sentence":"The president granted the delegation an audience.","gap":{"accepted":["granted","grants"],"start":14,"end":21}}
 {"id":"ex_121","collocation_id":"en_grant_a_reprieve","sentence":"The court granted a reprieve at the last minute.","gap":{"accepted":["granted"],"start":10,"end":17}}
-{"id":"ex_122","collocation_id":"en_issue_a_decree","sentence":"The monarch issued a decree banning the practice.","gap":{"accepted":["issued"],"start":12,"end":18}}
-{"id":"ex_123","collocation_id":"en_issue_a_warning","sentence":"Officials issued a warning about the severe weather.","gap":{"accepted":["issued"],"start":10,"end":16}}
-{"id":"ex_124","collocation_id":"en_issue_a_summons","sentence":"The court issued a summons for the witness.","gap":{"accepted":["issued"],"start":10,"end":16}}
-{"id":"ex_125","collocation_id":"en_issue_a_rebuke","sentence":"The chairman issued a sharp rebuke to the members.","gap":{"accepted":["issued"],"start":13,"end":19}}
-{"id":"ex_126","collocation_id":"en_sound_a_warning","sentence":"The report sounded a warning about rising debt.","gap":{"accepted":["sounded"],"start":11,"end":18}}
+{"id":"ex_122","collocation_id":"en_issue_a_decree","sentence":"The monarch issued a decree banning the practice.","gap":{"accepted":["issued","issues"],"start":12,"end":18}}
+{"id":"ex_123","collocation_id":"en_issue_a_warning","sentence":"Officials issued a warning about the severe weather.","gap":{"accepted":["issued","issue"],"start":10,"end":16}}
+{"id":"ex_124","collocation_id":"en_issue_a_summons","sentence":"The court issued a summons for the witness.","gap":{"accepted":["issued","issues"],"start":10,"end":16}}
+{"id":"ex_125","collocation_id":"en_issue_a_rebuke","sentence":"The chairman issued a sharp rebuke to the members.","gap":{"accepted":["issued","issues"],"start":13,"end":19}}
+{"id":"ex_126","collocation_id":"en_sound_a_warning","sentence":"The report sounded a warning about rising debt.","gap":{"accepted":["sounded","sounds"],"start":11,"end":18}}
 {"id":"ex_127","collocation_id":"en_sound_the_alarm","sentence":"The guard sounded the alarm when he saw smoke.","gap":{"accepted":["sounded"],"start":10,"end":17}}
-{"id":"ex_128","collocation_id":"en_strike_a_note","sentence":"Her speech struck a hopeful note.","gap":{"accepted":["struck"],"start":11,"end":17}}
-{"id":"ex_129","collocation_id":"en_strike_a_chord","sentence":"His story struck a chord with many listeners.","gap":{"accepted":["struck"],"start":10,"end":16}}
-{"id":"ex_130","collocation_id":"en_strike_a_blow","sentence":"The ruling struck a blow against corruption.","gap":{"accepted":["struck"],"start":11,"end":17}}
-{"id":"ex_131","collocation_id":"en_strike_fear","sentence":"The announcement struck fear into local residents.","gap":{"accepted":["struck"],"start":17,"end":23}}
-{"id":"ex_132","collocation_id":"en_strike_terror","sentence":"The raids struck terror into the population.","gap":{"accepted":["struck"],"start":10,"end":16}}
+{"id":"ex_128","collocation_id":"en_strike_a_note","sentence":"Her speech struck a hopeful note.","gap":{"accepted":["struck","strikes"],"start":11,"end":17}}
+{"id":"ex_129","collocation_id":"en_strike_a_chord","sentence":"His story struck a chord with many listeners.","gap":{"accepted":["struck","strikes"],"start":10,"end":16}}
+{"id":"ex_130","collocation_id":"en_strike_a_blow","sentence":"The ruling struck a blow against corruption.","gap":{"accepted":["struck","strikes"],"start":11,"end":17}}
+{"id":"ex_131","collocation_id":"en_strike_fear","sentence":"The announcement struck fear into local residents.","gap":{"accepted":["struck","strikes"],"start":17,"end":23}}
+{"id":"ex_132","collocation_id":"en_strike_terror","sentence":"The raids struck terror into the population.","gap":{"accepted":["struck","strike"],"start":10,"end":16}}
 {"id":"ex_133","collocation_id":"en_strike_a_balance","sentence":"We need to strike a balance between speed and accuracy.","gap":{"accepted":["strike"],"start":11,"end":17}}
-{"id":"ex_134","collocation_id":"en_draw_a_distinction","sentence":"The author draws a useful distinction between the two concepts.","gap":{"accepted":["draws"],"start":11,"end":16}}
-{"id":"ex_135","collocation_id":"en_draw_a_comparison","sentence":"The article draws a comparison between the two eras.","gap":{"accepted":["draws"],"start":12,"end":17}}
-{"id":"ex_136","collocation_id":"en_draw_attention","sentence":"She drew attention to several flaws in the proposal.","gap":{"accepted":["drew"],"start":4,"end":8}}
-{"id":"ex_137","collocation_id":"en_draw_fire","sentence":"The minister drew fire for his comments.","gap":{"accepted":["drew"],"start":13,"end":17}}
-{"id":"ex_138","collocation_id":"en_draw_criticism","sentence":"The plan drew criticism from environmental groups.","gap":{"accepted":["drew"],"start":9,"end":13}}
+{"id":"ex_134","collocation_id":"en_draw_a_distinction","sentence":"The author draws a useful distinction between the two concepts.","gap":{"accepted":["draws","drew"],"start":11,"end":16}}
+{"id":"ex_135","collocation_id":"en_draw_a_comparison","sentence":"The article draws a comparison between the two eras.","gap":{"accepted":["draws","drew"],"start":12,"end":17}}
+{"id":"ex_136","collocation_id":"en_draw_attention","sentence":"She drew attention to several flaws in the proposal.","gap":{"accepted":["drew","draws"],"start":4,"end":8}}
+{"id":"ex_137","collocation_id":"en_draw_fire","sentence":"The minister drew fire for his comments.","gap":{"accepted":["drew","draws"],"start":13,"end":17}}
+{"id":"ex_138","collocation_id":"en_draw_criticism","sentence":"The plan drew criticism from environmental groups.","gap":{"accepted":["drew","draws"],"start":9,"end":13}}
 {"id":"ex_139","collocation_id":"en_draw_breath","sentence":"He paused to draw breath before continuing.","gap":{"accepted":["draw"],"start":13,"end":17}}
-{"id":"ex_140","collocation_id":"en_draw_lots","sentence":"They drew lots to decide who would go first.","gap":{"accepted":["drew"],"start":5,"end":9}}
+{"id":"ex_140","collocation_id":"en_draw_lots","sentence":"They drew lots to decide who would go first.","gap":{"accepted":["drew","draw"],"start":5,"end":9}}
 {"id":"ex_141","collocation_id":"en_draw_the_line","sentence":"You have to draw the line somewhere.","gap":{"accepted":["draw"],"start":12,"end":16}}
 {"id":"ex_142","collocation_id":"en_draw_a_veil_over","sentence":"The family preferred to draw a veil over the incident.","gap":{"accepted":["draw"],"start":24,"end":28}}
-{"id":"ex_143","collocation_id":"en_cast_a_shadow","sentence":"The scandal cast a shadow over the celebrations.","gap":{"accepted":["cast"],"start":12,"end":16}}
+{"id":"ex_143","collocation_id":"en_cast_a_shadow","sentence":"The scandal cast a shadow over the celebrations.","gap":{"accepted":["cast","casts"],"start":12,"end":16}}
 {"id":"ex_144","collocation_id":"en_cast_aspersions","sentence":"He was sued for casting aspersions on his former colleague.","gap":{"accepted":["casting"],"start":16,"end":23}}
 {"id":"ex_145","collocation_id":"en_cast_ones_vote","sentence":"Thousands of citizens cast their votes before noon.","gap":{"accepted":["cast"],"start":22,"end":26}}
-{"id":"ex_146","collocation_id":"en_cast_a_glance","sentence":"She cast a glance toward the door.","gap":{"accepted":["cast"],"start":4,"end":8}}
+{"id":"ex_146","collocation_id":"en_cast_a_glance","sentence":"She cast a glance toward the door.","gap":{"accepted":["cast","casts"],"start":4,"end":8}}
 {"id":"ex_147","collocation_id":"en_cast_an_eye_over","sentence":"Could you cast an eye over this draft before I send it?","gap":{"accepted":["cast"],"start":10,"end":14}}
 {"id":"ex_148","collocation_id":"en_cast_aside","sentence":"He cast aside his doubts and accepted the offer.","gap":{"accepted":["cast"],"start":3,"end":7}}
 {"id":"ex_149","collocation_id":"en_cast_off_restraint","sentence":"For once, she cast off restraint and danced until dawn.","gap":{"accepted":["cast"],"start":14,"end":18}}
@@ -152,77 +152,77 @@
 {"id":"ex_152","collocation_id":"en_shed_blood","sentence":"Too much blood had already been shed in the conflict.","gap":{"accepted":["shed"],"start":32,"end":36}}
 {"id":"ex_153","collocation_id":"en_shed_ones_inhibitions","sentence":"He gradually shed his inhibitions as the evening went on.","gap":{"accepted":["shed"],"start":13,"end":17}}
 {"id":"ex_154","collocation_id":"en_shed_doubt","sentence":"The latest figures shed doubt on the original estimate.","gap":{"accepted":["shed"],"start":19,"end":23}}
-{"id":"ex_155","collocation_id":"en_lend_support","sentence":"Several countries lent support to the proposal.","gap":{"accepted":["lent"],"start":18,"end":22}}
-{"id":"ex_156","collocation_id":"en_lend_credence","sentence":"The witness's testimony lent credence to her story.","gap":{"accepted":["lent"],"start":24,"end":28}}
-{"id":"ex_157","collocation_id":"en_lend_weight","sentence":"These findings lend weight to the argument.","gap":{"accepted":["lend"],"start":15,"end":19}}
-{"id":"ex_158","collocation_id":"en_lend_an_air_of","sentence":"The candles lent an air of mystery to the room.","gap":{"accepted":["lent"],"start":12,"end":16}}
-{"id":"ex_159","collocation_id":"en_lend_oneself_to","sentence":"The old warehouse lends itself to conversion into apartments.","gap":{"accepted":["lends"],"start":18,"end":23}}
-{"id":"ex_160","collocation_id":"en_afford_an_opportunity","sentence":"The delay afforded us an opportunity to reconsider.","gap":{"accepted":["afforded"],"start":10,"end":18}}
-{"id":"ex_161","collocation_id":"en_afford_protection","sentence":"The thick walls afforded protection from the wind.","gap":{"accepted":["afforded"],"start":16,"end":24}}
-{"id":"ex_162","collocation_id":"en_afford_relief","sentence":"The new treatment afforded some relief from the pain.","gap":{"accepted":["afforded"],"start":18,"end":26}}
-{"id":"ex_163","collocation_id":"en_afford_a_glimpse","sentence":"The doorway afforded a glimpse of the courtyard beyond.","gap":{"accepted":["afforded"],"start":12,"end":20}}
-{"id":"ex_164","collocation_id":"en_furnish_evidence","sentence":"The records furnished evidence of long-term neglect.","gap":{"accepted":["furnished"],"start":12,"end":21}}
+{"id":"ex_155","collocation_id":"en_lend_support","sentence":"Several countries lent support to the proposal.","gap":{"accepted":["lent","lend"],"start":18,"end":22}}
+{"id":"ex_156","collocation_id":"en_lend_credence","sentence":"The witness's testimony lent credence to her story.","gap":{"accepted":["lent","lends"],"start":24,"end":28}}
+{"id":"ex_157","collocation_id":"en_lend_weight","sentence":"These findings lend weight to the argument.","gap":{"accepted":["lend","lent"],"start":15,"end":19}}
+{"id":"ex_158","collocation_id":"en_lend_an_air_of","sentence":"The candles lent an air of mystery to the room.","gap":{"accepted":["lent","lend"],"start":12,"end":16}}
+{"id":"ex_159","collocation_id":"en_lend_oneself_to","sentence":"The old warehouse lends itself to conversion into apartments.","gap":{"accepted":["lends","lent"],"start":18,"end":23}}
+{"id":"ex_160","collocation_id":"en_afford_an_opportunity","sentence":"The delay afforded us an opportunity to reconsider.","gap":{"accepted":["afforded","affords"],"start":10,"end":18}}
+{"id":"ex_161","collocation_id":"en_afford_protection","sentence":"The thick walls afforded protection from the wind.","gap":{"accepted":["afforded","afford"],"start":16,"end":24}}
+{"id":"ex_162","collocation_id":"en_afford_relief","sentence":"The new treatment afforded some relief from the pain.","gap":{"accepted":["afforded","affords"],"start":18,"end":26}}
+{"id":"ex_163","collocation_id":"en_afford_a_glimpse","sentence":"The doorway afforded a glimpse of the courtyard beyond.","gap":{"accepted":["afforded","affords"],"start":12,"end":20}}
+{"id":"ex_164","collocation_id":"en_furnish_evidence","sentence":"The records furnished evidence of long-term neglect.","gap":{"accepted":["furnished","furnish"],"start":12,"end":21}}
 {"id":"ex_165","collocation_id":"en_furnish_details","sentence":"Please furnish full details with your application.","gap":{"accepted":["furnish"],"start":7,"end":14}}
-{"id":"ex_166","collocation_id":"en_furnish_proof","sentence":"The documents furnished proof of ownership.","gap":{"accepted":["furnished"],"start":14,"end":23}}
+{"id":"ex_166","collocation_id":"en_furnish_proof","sentence":"The documents furnished proof of ownership.","gap":{"accepted":["furnished","furnish"],"start":14,"end":23}}
 {"id":"ex_167","collocation_id":"en_furnish_an_explanation","sentence":"He was unable to furnish a convincing explanation.","gap":{"accepted":["furnish"],"start":17,"end":24}}
-{"id":"ex_168","collocation_id":"en_proffer_an_apology","sentence":"The minister proffered an apology for the mistake.","gap":{"accepted":["proffered"],"start":13,"end":22}}
-{"id":"ex_169","collocation_id":"en_proffer_advice","sentence":"She proffered advice to the younger members of the team.","gap":{"accepted":["proffered"],"start":4,"end":13}}
-{"id":"ex_170","collocation_id":"en_proffer_assistance","sentence":"Several neighbors proffered assistance after the flood.","gap":{"accepted":["proffered"],"start":18,"end":27}}
-{"id":"ex_171","collocation_id":"en_proffer_a_hand","sentence":"He proffered a hand to help her over the wall.","gap":{"accepted":["proffered"],"start":3,"end":12}}
-{"id":"ex_172","collocation_id":"en_voice_concern","sentence":"Residents voiced concern about the proposed closure.","gap":{"accepted":["voiced"],"start":10,"end":16}}
-{"id":"ex_173","collocation_id":"en_voice_an_objection","sentence":"The senator voiced an objection during the hearing.","gap":{"accepted":["voiced"],"start":12,"end":18}}
-{"id":"ex_174","collocation_id":"en_voice_disapproval","sentence":"Many readers voiced disapproval of the decision.","gap":{"accepted":["voiced"],"start":13,"end":19}}
-{"id":"ex_175","collocation_id":"en_voice_support","sentence":"Several unions voiced support for the strike.","gap":{"accepted":["voiced"],"start":15,"end":21}}
-{"id":"ex_176","collocation_id":"en_register_a_protest","sentence":"Students registered a protest outside the administration building.","gap":{"accepted":["registered"],"start":9,"end":19}}
-{"id":"ex_177","collocation_id":"en_register_disapproval","sentence":"The audience registered its disapproval with loud boos.","gap":{"accepted":["registered"],"start":13,"end":23}}
-{"id":"ex_178","collocation_id":"en_register_surprise","sentence":"She registered surprise when she saw the final total.","gap":{"accepted":["registered"],"start":4,"end":14}}
-{"id":"ex_179","collocation_id":"en_register_a_complaint","sentence":"He registered a complaint at the front desk.","gap":{"accepted":["registered"],"start":3,"end":13}}
-{"id":"ex_180","collocation_id":"en_lodge_a_claim","sentence":"The company lodged a claim for damages.","gap":{"accepted":["lodged"],"start":12,"end":18}}
-{"id":"ex_181","collocation_id":"en_stake_a_claim","sentence":"Several groups staked a claim to the disputed land.","gap":{"accepted":["staked"],"start":15,"end":21}}
-{"id":"ex_182","collocation_id":"en_stake_ones_reputation","sentence":"He staked his reputation on the accuracy of the prediction.","gap":{"accepted":["staked"],"start":3,"end":9}}
-{"id":"ex_183","collocation_id":"en_stake_ones_life","sentence":"She staked her life on the success of the rescue.","gap":{"accepted":["staked"],"start":4,"end":10}}
-{"id":"ex_184","collocation_id":"en_stake_out_a_position","sentence":"The party staked out a clear position on taxation.","gap":{"accepted":["staked"],"start":10,"end":16}}
-{"id":"ex_185","collocation_id":"en_assert_ones_rights","sentence":"Workers asserted their rights during the negotiations.","gap":{"accepted":["asserted"],"start":8,"end":16}}
-{"id":"ex_186","collocation_id":"en_assert_authority","sentence":"The governor asserted his authority over the agency.","gap":{"accepted":["asserted"],"start":13,"end":21}}
-{"id":"ex_187","collocation_id":"en_assert_control","sentence":"The rebels briefly asserted control over the town.","gap":{"accepted":["asserted"],"start":19,"end":27}}
+{"id":"ex_168","collocation_id":"en_proffer_an_apology","sentence":"The minister proffered an apology for the mistake.","gap":{"accepted":["proffered","proffers"],"start":13,"end":22}}
+{"id":"ex_169","collocation_id":"en_proffer_advice","sentence":"She proffered advice to the younger members of the team.","gap":{"accepted":["proffered","proffers"],"start":4,"end":13}}
+{"id":"ex_170","collocation_id":"en_proffer_assistance","sentence":"Several neighbors proffered assistance after the flood.","gap":{"accepted":["proffered","proffer"],"start":18,"end":27}}
+{"id":"ex_171","collocation_id":"en_proffer_a_hand","sentence":"He proffered a hand to help her over the wall.","gap":{"accepted":["proffered","proffers"],"start":3,"end":12}}
+{"id":"ex_172","collocation_id":"en_voice_concern","sentence":"Residents voiced concern about the proposed closure.","gap":{"accepted":["voiced","voice"],"start":10,"end":16}}
+{"id":"ex_173","collocation_id":"en_voice_an_objection","sentence":"The senator voiced an objection during the hearing.","gap":{"accepted":["voiced","voices"],"start":12,"end":18}}
+{"id":"ex_174","collocation_id":"en_voice_disapproval","sentence":"Many readers voiced disapproval of the decision.","gap":{"accepted":["voiced","voice"],"start":13,"end":19}}
+{"id":"ex_175","collocation_id":"en_voice_support","sentence":"Several unions voiced support for the strike.","gap":{"accepted":["voiced","voice"],"start":15,"end":21}}
+{"id":"ex_176","collocation_id":"en_register_a_protest","sentence":"Students registered a protest outside the administration building.","gap":{"accepted":["registered","register"],"start":9,"end":19}}
+{"id":"ex_177","collocation_id":"en_register_disapproval","sentence":"The audience registered its disapproval with loud boos.","gap":{"accepted":["registered","registers"],"start":13,"end":23}}
+{"id":"ex_178","collocation_id":"en_register_surprise","sentence":"She registered surprise when she saw the final total.","gap":{"accepted":["registered","registers"],"start":4,"end":14}}
+{"id":"ex_179","collocation_id":"en_register_a_complaint","sentence":"He registered a complaint at the front desk.","gap":{"accepted":["registered","registers"],"start":3,"end":13}}
+{"id":"ex_180","collocation_id":"en_lodge_a_claim","sentence":"The company lodged a claim for damages.","gap":{"accepted":["lodged","lodges"],"start":12,"end":18}}
+{"id":"ex_181","collocation_id":"en_stake_a_claim","sentence":"Several groups staked a claim to the disputed land.","gap":{"accepted":["staked","stake"],"start":15,"end":21}}
+{"id":"ex_182","collocation_id":"en_stake_ones_reputation","sentence":"He staked his reputation on the accuracy of the prediction.","gap":{"accepted":["staked","stakes"],"start":3,"end":9}}
+{"id":"ex_183","collocation_id":"en_stake_ones_life","sentence":"She staked her life on the success of the rescue.","gap":{"accepted":["staked","stakes"],"start":4,"end":10}}
+{"id":"ex_184","collocation_id":"en_stake_out_a_position","sentence":"The party staked out a clear position on taxation.","gap":{"accepted":["staked","stakes"],"start":10,"end":16}}
+{"id":"ex_185","collocation_id":"en_assert_ones_rights","sentence":"Workers asserted their rights during the negotiations.","gap":{"accepted":["asserted","assert"],"start":8,"end":16}}
+{"id":"ex_186","collocation_id":"en_assert_authority","sentence":"The governor asserted his authority over the agency.","gap":{"accepted":["asserted","asserts"],"start":13,"end":21}}
+{"id":"ex_187","collocation_id":"en_assert_control","sentence":"The rebels briefly asserted control over the town.","gap":{"accepted":["asserted","assert"],"start":19,"end":27}}
 {"id":"ex_188","collocation_id":"en_assert_dominance","sentence":"The larger company tried to assert dominance in the market.","gap":{"accepted":["assert"],"start":28,"end":34}}
 {"id":"ex_189","collocation_id":"en_assert_innocence","sentence":"He continued to assert his innocence.","gap":{"accepted":["assert"],"start":16,"end":22}}
-{"id":"ex_190","collocation_id":"en_aver_ones_innocence","sentence":"The prisoner averred his innocence throughout the trial.","gap":{"accepted":["averred"],"start":13,"end":20}}
-{"id":"ex_191","collocation_id":"en_aver_the_truth","sentence":"She averred that the account was true.","gap":{"accepted":["averred"],"start":4,"end":11}}
-{"id":"ex_192","collocation_id":"en_avow_ones_intention","sentence":"He avowed his intention to remain in office.","gap":{"accepted":["avowed"],"start":3,"end":9}}
-{"id":"ex_193","collocation_id":"en_avow_support","sentence":"Several prominent figures avowed their support for the reform.","gap":{"accepted":["avowed"],"start":26,"end":32}}
-{"id":"ex_194","collocation_id":"en_avow_allegiance","sentence":"The officers avowed allegiance to the crown.","gap":{"accepted":["avowed"],"start":13,"end":19}}
-{"id":"ex_195","collocation_id":"en_recant_a_statement","sentence":"Under pressure, the witness recanted his statement.","gap":{"accepted":["recanted"],"start":28,"end":36}}
+{"id":"ex_190","collocation_id":"en_aver_ones_innocence","sentence":"The prisoner averred his innocence throughout the trial.","gap":{"accepted":["averred","avers"],"start":13,"end":20}}
+{"id":"ex_191","collocation_id":"en_aver_the_truth","sentence":"She averred that the account was true.","gap":{"accepted":["averred","avers"],"start":4,"end":11}}
+{"id":"ex_192","collocation_id":"en_avow_ones_intention","sentence":"He avowed his intention to remain in office.","gap":{"accepted":["avowed","avows"],"start":3,"end":9}}
+{"id":"ex_193","collocation_id":"en_avow_support","sentence":"Several prominent figures avowed their support for the reform.","gap":{"accepted":["avowed","avow"],"start":26,"end":32}}
+{"id":"ex_194","collocation_id":"en_avow_allegiance","sentence":"The officers avowed allegiance to the crown.","gap":{"accepted":["avowed","avow"],"start":13,"end":19}}
+{"id":"ex_195","collocation_id":"en_recant_a_statement","sentence":"Under pressure, the witness recanted his statement.","gap":{"accepted":["recanted","recants"],"start":28,"end":36}}
 {"id":"ex_196","collocation_id":"en_recant_a_belief","sentence":"He later recanted the belief he had defended for years.","gap":{"accepted":["recanted"],"start":9,"end":17}}
 {"id":"ex_197","collocation_id":"en_retract_a_statement","sentence":"The newspaper retracted its statement the next day.","gap":{"accepted":["retracted"],"start":14,"end":23}}
 {"id":"ex_198","collocation_id":"en_retract_an_accusation","sentence":"She refused to retract the accusation.","gap":{"accepted":["retract"],"start":15,"end":22}}
 {"id":"ex_199","collocation_id":"en_rescind_an_offer","sentence":"The buyer rescinded the offer before contracts were signed.","gap":{"accepted":["rescinded"],"start":10,"end":19}}
-{"id":"ex_200","collocation_id":"en_rescind_permission","sentence":"The school rescinded permission for the event.","gap":{"accepted":["rescinded"],"start":11,"end":20}}
-{"id":"ex_201","collocation_id":"en_rescind_a_decision","sentence":"The board rescinded its earlier decision.","gap":{"accepted":["rescinded"],"start":10,"end":19}}
-{"id":"ex_202","collocation_id":"en_revoke_a_license","sentence":"The authority revoked his license after repeated violations.","gap":{"accepted":["revoked"],"start":14,"end":21}}
-{"id":"ex_203","collocation_id":"en_revoke_permission","sentence":"The manager revoked permission to use the equipment.","gap":{"accepted":["revoked"],"start":12,"end":19}}
+{"id":"ex_200","collocation_id":"en_rescind_permission","sentence":"The school rescinded permission for the event.","gap":{"accepted":["rescinded","rescinds"],"start":11,"end":20}}
+{"id":"ex_201","collocation_id":"en_rescind_a_decision","sentence":"The board rescinded its earlier decision.","gap":{"accepted":["rescinded","rescinds"],"start":10,"end":19}}
+{"id":"ex_202","collocation_id":"en_revoke_a_license","sentence":"The authority revoked his license after repeated violations.","gap":{"accepted":["revoked","revokes"],"start":14,"end":21}}
+{"id":"ex_203","collocation_id":"en_revoke_permission","sentence":"The manager revoked permission to use the equipment.","gap":{"accepted":["revoked","revokes"],"start":12,"end":19}}
 {"id":"ex_204","collocation_id":"en_revoke_an_order","sentence":"The commander revoked the order before dawn.","gap":{"accepted":["revoked"],"start":14,"end":21}}
 {"id":"ex_205","collocation_id":"en_repeal_a_law","sentence":"Parliament voted to repeal the law.","gap":{"accepted":["repeal"],"start":20,"end":26}}
-{"id":"ex_206","collocation_id":"en_repeal_a_measure","sentence":"The government repealed the unpopular measure.","gap":{"accepted":["repealed"],"start":15,"end":23}}
-{"id":"ex_207","collocation_id":"en_enact_a_law","sentence":"The legislature enacted a law protecting tenants.","gap":{"accepted":["enacted"],"start":16,"end":23}}
-{"id":"ex_208","collocation_id":"en_enact_legislation","sentence":"Congress enacted legislation to regulate the industry.","gap":{"accepted":["enacted"],"start":9,"end":16}}
+{"id":"ex_206","collocation_id":"en_repeal_a_measure","sentence":"The government repealed the unpopular measure.","gap":{"accepted":["repealed","repeals"],"start":15,"end":23}}
+{"id":"ex_207","collocation_id":"en_enact_a_law","sentence":"The legislature enacted a law protecting tenants.","gap":{"accepted":["enacted","enacts"],"start":16,"end":23}}
+{"id":"ex_208","collocation_id":"en_enact_legislation","sentence":"Congress enacted legislation to regulate the industry.","gap":{"accepted":["enacted","enacts"],"start":9,"end":16}}
 {"id":"ex_209","collocation_id":"en_enact_reforms","sentence":"The administration enacted several reforms during its first year.","gap":{"accepted":["enacted"],"start":19,"end":26}}
 {"id":"ex_210","collocation_id":"en_promulgate_a_law","sentence":"The decree was promulgated as law the following month.","gap":{"accepted":["promulgated"],"start":15,"end":26}}
-{"id":"ex_211","collocation_id":"en_promulgate_regulations","sentence":"The agency promulgated new regulations on workplace safety.","gap":{"accepted":["promulgated"],"start":11,"end":22}}
-{"id":"ex_212","collocation_id":"en_promulgate_a_doctrine","sentence":"The movement promulgated a doctrine of strict neutrality.","gap":{"accepted":["promulgated"],"start":13,"end":24}}
-{"id":"ex_213","collocation_id":"en_uphold_a_verdict","sentence":"The appeals court upheld the verdict.","gap":{"accepted":["upheld"],"start":18,"end":24}}
+{"id":"ex_211","collocation_id":"en_promulgate_regulations","sentence":"The agency promulgated new regulations on workplace safety.","gap":{"accepted":["promulgated","promulgates"],"start":11,"end":22}}
+{"id":"ex_212","collocation_id":"en_promulgate_a_doctrine","sentence":"The movement promulgated a doctrine of strict neutrality.","gap":{"accepted":["promulgated","promulgates"],"start":13,"end":24}}
+{"id":"ex_213","collocation_id":"en_uphold_a_verdict","sentence":"The appeals court upheld the verdict.","gap":{"accepted":["upheld","upholds"],"start":18,"end":24}}
 {"id":"ex_214","collocation_id":"en_uphold_the_law","sentence":"Judges are expected to uphold the law.","gap":{"accepted":["uphold"],"start":23,"end":29}}
-{"id":"ex_215","collocation_id":"en_uphold_a_principle","sentence":"She upheld the principle of equal treatment.","gap":{"accepted":["upheld"],"start":4,"end":10}}
-{"id":"ex_216","collocation_id":"en_uphold_a_tradition","sentence":"The village still upholds an ancient tradition.","gap":{"accepted":["upholds"],"start":18,"end":25}}
-{"id":"ex_217","collocation_id":"en_uphold_an_objection","sentence":"The judge upheld the objection.","gap":{"accepted":["upheld"],"start":10,"end":16}}
-{"id":"ex_218","collocation_id":"en_quash_a_conviction","sentence":"The appeals court quashed the conviction.","gap":{"accepted":["quashed"],"start":18,"end":25}}
+{"id":"ex_215","collocation_id":"en_uphold_a_principle","sentence":"She upheld the principle of equal treatment.","gap":{"accepted":["upheld","upholds"],"start":4,"end":10}}
+{"id":"ex_216","collocation_id":"en_uphold_a_tradition","sentence":"The village still upholds an ancient tradition.","gap":{"accepted":["upholds","upheld"],"start":18,"end":25}}
+{"id":"ex_217","collocation_id":"en_uphold_an_objection","sentence":"The judge upheld the objection.","gap":{"accepted":["upheld","upholds"],"start":10,"end":16}}
+{"id":"ex_218","collocation_id":"en_quash_a_conviction","sentence":"The appeals court quashed the conviction.","gap":{"accepted":["quashed","quashes"],"start":18,"end":25}}
 {"id":"ex_219","collocation_id":"en_quash_a_rumor","sentence":"Officials moved quickly to quash the rumor.","gap":{"accepted":["quash"],"start":27,"end":32}}
 {"id":"ex_220","collocation_id":"en_quash_dissent","sentence":"The regime tried to quash dissent by banning public meetings.","gap":{"accepted":["quash"],"start":20,"end":25}}
 {"id":"ex_221","collocation_id":"en_quell_unrest","sentence":"Police were called in to quell the unrest.","gap":{"accepted":["quell"],"start":25,"end":30}}
 {"id":"ex_222","collocation_id":"en_quell_a_disturbance","sentence":"Extra officers were deployed to quell the disturbance.","gap":{"accepted":["quell"],"start":32,"end":37}}
 {"id":"ex_223","collocation_id":"en_quell_fears","sentence":"The minister tried to quell fears about shortages.","gap":{"accepted":["quell"],"start":22,"end":27}}
 {"id":"ex_224","collocation_id":"en_stifle_dissent","sentence":"The authorities attempted to stifle dissent.","gap":{"accepted":["stifle"],"start":29,"end":35}}
-{"id":"ex_225","collocation_id":"en_stifle_a_laugh","sentence":"She stifled a laugh during the solemn ceremony.","gap":{"accepted":["stifled"],"start":4,"end":11}}
+{"id":"ex_225","collocation_id":"en_stifle_a_laugh","sentence":"She stifled a laugh during the solemn ceremony.","gap":{"accepted":["stifled","stifles"],"start":4,"end":11}}
 {"id":"ex_226","collocation_id":"en_stifle_criticism","sentence":"The company was accused of trying to stifle criticism.","gap":{"accepted":["stifle"],"start":37,"end":43}}
 {"id":"ex_227","collocation_id":"en_allay_fears","sentence":"The statement helped allay fears of a wider conflict.","gap":{"accepted":["allay"],"start":21,"end":26}}
 {"id":"ex_228","collocation_id":"en_allay_suspicion","sentence":"Nothing he said could allay her suspicion.","gap":{"accepted":["allay"],"start":22,"end":27}}
@@ -243,80 +243,80 @@
 {"id":"ex_243","collocation_id":"en_nurse_a_grievance","sentence":"He had nursed a grievance against the company for years.","gap":{"accepted":["nursed"],"start":7,"end":13}}
 {"id":"ex_244","collocation_id":"en_nurse_a_hope","sentence":"She continued to nurse a hope of returning home.","gap":{"accepted":["nurse"],"start":17,"end":22}}
 {"id":"ex_245","collocation_id":"en_nurse_a_suspicion","sentence":"Detectives began to nurse a suspicion that the story was false.","gap":{"accepted":["nurse"],"start":20,"end":25}}
-{"id":"ex_246","collocation_id":"en_harbor_a_grudge","sentence":"He still harbors a grudge over the old dispute.","gap":{"accepted":["harbors"],"start":9,"end":16}}
+{"id":"ex_246","collocation_id":"en_harbor_a_grudge","sentence":"He still harbors a grudge over the old dispute.","gap":{"accepted":["harbors","harbored"],"start":9,"end":16}}
 {"id":"ex_247","collocation_id":"en_harbor_doubts","sentence":"Experts continue to harbor doubts about the plan.","gap":{"accepted":["harbor"],"start":20,"end":26}}
-{"id":"ex_248","collocation_id":"en_harbor_resentment","sentence":"She harbored resentment toward her former employer.","gap":{"accepted":["harbored"],"start":4,"end":12}}
+{"id":"ex_248","collocation_id":"en_harbor_resentment","sentence":"She harbored resentment toward her former employer.","gap":{"accepted":["harbored","harbors"],"start":4,"end":12}}
 {"id":"ex_249","collocation_id":"en_harbor_ambitions","sentence":"He had long harbored ambitions of becoming a judge.","gap":{"accepted":["harbored"],"start":12,"end":20}}
 {"id":"ex_250","collocation_id":"en_harbor_a_fugitive","sentence":"The family was charged with harboring a fugitive.","gap":{"accepted":["harboring"],"start":28,"end":37}}
-{"id":"ex_251","collocation_id":"en_entertain_doubts","sentence":"I still entertain doubts about whether the scheme will work.","gap":{"accepted":["entertain"],"start":8,"end":17}}
-{"id":"ex_252","collocation_id":"en_entertain_a_suspicion","sentence":"The police entertained a suspicion that the fire was deliberate.","gap":{"accepted":["entertained"],"start":11,"end":22}}
-{"id":"ex_253","collocation_id":"en_entertain_an_idea","sentence":"She briefly entertained the idea of moving abroad.","gap":{"accepted":["entertained"],"start":12,"end":23}}
-{"id":"ex_254","collocation_id":"en_entertain_hopes","sentence":"They still entertained hopes of reconciliation.","gap":{"accepted":["entertained"],"start":11,"end":22}}
-{"id":"ex_255","collocation_id":"en_cherish_a_hope","sentence":"He cherished a hope that his son would return.","gap":{"accepted":["cherished"],"start":3,"end":12}}
-{"id":"ex_256","collocation_id":"en_cherish_a_memory","sentence":"She cherishes the memory of those summers by the sea.","gap":{"accepted":["cherishes"],"start":4,"end":13}}
+{"id":"ex_251","collocation_id":"en_entertain_doubts","sentence":"I still entertain doubts about whether the scheme will work.","gap":{"accepted":["entertain","entertained"],"start":8,"end":17}}
+{"id":"ex_252","collocation_id":"en_entertain_a_suspicion","sentence":"The police entertained a suspicion that the fire was deliberate.","gap":{"accepted":["entertained","entertain"],"start":11,"end":22}}
+{"id":"ex_253","collocation_id":"en_entertain_an_idea","sentence":"She briefly entertained the idea of moving abroad.","gap":{"accepted":["entertained","entertains"],"start":12,"end":23}}
+{"id":"ex_254","collocation_id":"en_entertain_hopes","sentence":"They still entertained hopes of reconciliation.","gap":{"accepted":["entertained","entertain"],"start":11,"end":22}}
+{"id":"ex_255","collocation_id":"en_cherish_a_hope","sentence":"He cherished a hope that his son would return.","gap":{"accepted":["cherished","cherishes"],"start":3,"end":12}}
+{"id":"ex_256","collocation_id":"en_cherish_a_memory","sentence":"She cherishes the memory of those summers by the sea.","gap":{"accepted":["cherishes","cherished"],"start":4,"end":13}}
 {"id":"ex_257","collocation_id":"en_cherish_an_ambition","sentence":"He had cherished an ambition to become a diplomat.","gap":{"accepted":["cherished"],"start":7,"end":16}}
 {"id":"ex_258","collocation_id":"en_cherish_a_belief","sentence":"She continued to cherish the belief that justice would prevail.","gap":{"accepted":["cherish"],"start":17,"end":24}}
-{"id":"ex_259","collocation_id":"en_nourish_a_hope","sentence":"The news nourished a faint hope of rescue.","gap":{"accepted":["nourished"],"start":9,"end":18}}
-{"id":"ex_260","collocation_id":"en_nourish_resentment","sentence":"Constant rumors only nourished resentment among the staff.","gap":{"accepted":["nourished"],"start":21,"end":30}}
+{"id":"ex_259","collocation_id":"en_nourish_a_hope","sentence":"The news nourished a faint hope of rescue.","gap":{"accepted":["nourished","nourishes"],"start":9,"end":18}}
+{"id":"ex_260","collocation_id":"en_nourish_resentment","sentence":"Constant rumors only nourished resentment among the staff.","gap":{"accepted":["nourished","nourish"],"start":21,"end":30}}
 {"id":"ex_261","collocation_id":"en_foster_goodwill","sentence":"The program was designed to foster goodwill between the communities.","gap":{"accepted":["foster"],"start":28,"end":34}}
 {"id":"ex_262","collocation_id":"en_foster_cooperation","sentence":"Regular meetings helped foster cooperation between the departments.","gap":{"accepted":["foster"],"start":24,"end":30}}
 {"id":"ex_263","collocation_id":"en_foster_resentment","sentence":"Unequal treatment can foster resentment.","gap":{"accepted":["foster"],"start":22,"end":28}}
-{"id":"ex_264","collocation_id":"en_foster_a_belief","sentence":"The article fostered a belief that change was imminent.","gap":{"accepted":["fostered"],"start":12,"end":20}}
-{"id":"ex_265","collocation_id":"en_cultivate_an_air_of","sentence":"He carefully cultivated an air of mystery.","gap":{"accepted":["cultivated"],"start":13,"end":23}}
+{"id":"ex_264","collocation_id":"en_foster_a_belief","sentence":"The article fostered a belief that change was imminent.","gap":{"accepted":["fostered","fosters"],"start":12,"end":20}}
+{"id":"ex_265","collocation_id":"en_cultivate_an_air_of","sentence":"He carefully cultivated an air of mystery.","gap":{"accepted":["cultivated","cultivates"],"start":13,"end":23}}
 {"id":"ex_266","collocation_id":"en_cultivate_a_friendship","sentence":"They cultivated a friendship that lasted for decades.","gap":{"accepted":["cultivated"],"start":5,"end":15}}
-{"id":"ex_267","collocation_id":"en_cultivate_an_image","sentence":"The politician cultivated an image of quiet competence.","gap":{"accepted":["cultivated"],"start":15,"end":25}}
-{"id":"ex_268","collocation_id":"en_cultivate_a_taste_for","sentence":"She gradually cultivated a taste for classical music.","gap":{"accepted":["cultivated"],"start":14,"end":24}}
+{"id":"ex_267","collocation_id":"en_cultivate_an_image","sentence":"The politician cultivated an image of quiet competence.","gap":{"accepted":["cultivated","cultivates"],"start":15,"end":25}}
+{"id":"ex_268","collocation_id":"en_cultivate_a_taste_for","sentence":"She gradually cultivated a taste for classical music.","gap":{"accepted":["cultivated","cultivates"],"start":14,"end":24}}
 {"id":"ex_269","collocation_id":"en_nurture_talent","sentence":"Good teachers know how to nurture talent.","gap":{"accepted":["nurture"],"start":26,"end":33}}
-{"id":"ex_270","collocation_id":"en_nurture_a_hope","sentence":"He nurtured a hope of one day returning to the stage.","gap":{"accepted":["nurtured"],"start":3,"end":11}}
+{"id":"ex_270","collocation_id":"en_nurture_a_hope","sentence":"He nurtured a hope of one day returning to the stage.","gap":{"accepted":["nurtured","nurtures"],"start":3,"end":11}}
 {"id":"ex_271","collocation_id":"en_nurse_ones_wounds","sentence":"After the defeat, the team stayed home to nurse its wounds.","gap":{"accepted":["nurse"],"start":42,"end":47}}
 {"id":"ex_272","collocation_id":"en_lick_ones_wounds","sentence":"The party spent months licking its wounds after the election loss.","gap":{"accepted":["licking"],"start":23,"end":30}}
-{"id":"ex_273","collocation_id":"en_gird_ones_loins","sentence":"She girded her loins for the difficult negotiations ahead.","gap":{"accepted":["girded"],"start":4,"end":10}}
-{"id":"ex_274","collocation_id":"en_steel_oneself","sentence":"He steeled himself for the unpleasant conversation.","gap":{"accepted":["steeled"],"start":3,"end":10}}
+{"id":"ex_273","collocation_id":"en_gird_ones_loins","sentence":"She girded her loins for the difficult negotiations ahead.","gap":{"accepted":["girded","girds"],"start":4,"end":10}}
+{"id":"ex_274","collocation_id":"en_steel_oneself","sentence":"He steeled himself for the unpleasant conversation.","gap":{"accepted":["steeled","steels"],"start":3,"end":10}}
 {"id":"ex_275","collocation_id":"en_summon_ones_courage","sentence":"She summoned her courage and knocked on the door.","gap":{"accepted":["summoned"],"start":4,"end":12}}
-{"id":"ex_276","collocation_id":"en_muster_courage","sentence":"He finally mustered the courage to ask for help.","gap":{"accepted":["mustered"],"start":11,"end":19}}
-{"id":"ex_277","collocation_id":"en_summon_the_will","sentence":"She summoned the will to continue despite the pain.","gap":{"accepted":["summoned"],"start":4,"end":12}}
+{"id":"ex_276","collocation_id":"en_muster_courage","sentence":"He finally mustered the courage to ask for help.","gap":{"accepted":["mustered","musters"],"start":11,"end":19}}
+{"id":"ex_277","collocation_id":"en_summon_the_will","sentence":"She summoned the will to continue despite the pain.","gap":{"accepted":["summoned","summons"],"start":4,"end":12}}
 {"id":"ex_278","collocation_id":"en_take_courage","sentence":"Take courage from the progress you have already made.","gap":{"accepted":["Take"],"start":0,"end":4}}
-{"id":"ex_279","collocation_id":"en_take_comfort","sentence":"We took comfort in knowing that everyone was safe.","gap":{"accepted":["took"],"start":3,"end":7}}
-{"id":"ex_280","collocation_id":"en_find_solace","sentence":"She found solace in music after the breakup.","gap":{"accepted":["found"],"start":4,"end":9}}
-{"id":"ex_281","collocation_id":"en_seek_solace","sentence":"He sought solace in the company of old friends.","gap":{"accepted":["sought"],"start":3,"end":9}}
-{"id":"ex_282","collocation_id":"en_derive_comfort","sentence":"Many people derived comfort from the minister's words.","gap":{"accepted":["derived"],"start":12,"end":19}}
-{"id":"ex_283","collocation_id":"en_derive_satisfaction","sentence":"She derived great satisfaction from teaching.","gap":{"accepted":["derived"],"start":4,"end":11}}
-{"id":"ex_284","collocation_id":"en_derive_benefit","sentence":"The region derived considerable benefit from the new railway.","gap":{"accepted":["derived"],"start":11,"end":18}}
-{"id":"ex_285","collocation_id":"en_derive_pleasure","sentence":"He derived pleasure from solving difficult puzzles.","gap":{"accepted":["derived"],"start":3,"end":10}}
-{"id":"ex_286","collocation_id":"en_reap_the_benefits","sentence":"Early investors reaped the benefits of the company's growth.","gap":{"accepted":["reaped"],"start":16,"end":22}}
-{"id":"ex_287","collocation_id":"en_reap_rewards","sentence":"Those who worked hardest eventually reaped the rewards.","gap":{"accepted":["reaped"],"start":36,"end":42}}
+{"id":"ex_279","collocation_id":"en_take_comfort","sentence":"We took comfort in knowing that everyone was safe.","gap":{"accepted":["took","take"],"start":3,"end":7}}
+{"id":"ex_280","collocation_id":"en_find_solace","sentence":"She found solace in music after the breakup.","gap":{"accepted":["found","finds"],"start":4,"end":9}}
+{"id":"ex_281","collocation_id":"en_seek_solace","sentence":"He sought solace in the company of old friends.","gap":{"accepted":["sought","seeks"],"start":3,"end":9}}
+{"id":"ex_282","collocation_id":"en_derive_comfort","sentence":"Many people derived comfort from the minister's words.","gap":{"accepted":["derived","derive"],"start":12,"end":19}}
+{"id":"ex_283","collocation_id":"en_derive_satisfaction","sentence":"She derived great satisfaction from teaching.","gap":{"accepted":["derived","derives"],"start":4,"end":11}}
+{"id":"ex_284","collocation_id":"en_derive_benefit","sentence":"The region derived considerable benefit from the new railway.","gap":{"accepted":["derived","derives"],"start":11,"end":18}}
+{"id":"ex_285","collocation_id":"en_derive_pleasure","sentence":"He derived pleasure from solving difficult puzzles.","gap":{"accepted":["derived","derives"],"start":3,"end":10}}
+{"id":"ex_286","collocation_id":"en_reap_the_benefits","sentence":"Early investors reaped the benefits of the company's growth.","gap":{"accepted":["reaped","reap"],"start":16,"end":22}}
+{"id":"ex_287","collocation_id":"en_reap_rewards","sentence":"Those who worked hardest eventually reaped the rewards.","gap":{"accepted":["reaped","reap"],"start":36,"end":42}}
 {"id":"ex_288","collocation_id":"en_reap_a_harvest","sentence":"Farmers hoped to reap a good harvest that autumn.","gap":{"accepted":["reap"],"start":17,"end":21}}
 {"id":"ex_289","collocation_id":"en_reap_the_consequences","sentence":"Sooner or later, he will reap the consequences of his choices.","gap":{"accepted":["reap"],"start":25,"end":29}}
-{"id":"ex_290","collocation_id":"en_sow_discord","sentence":"The speech sowed discord within the party.","gap":{"accepted":["sowed"],"start":11,"end":16}}
-{"id":"ex_291","collocation_id":"en_sow_confusion","sentence":"The contradictory instructions sowed confusion among the staff.","gap":{"accepted":["sowed"],"start":31,"end":36}}
-{"id":"ex_292","collocation_id":"en_sow_doubt","sentence":"The article sowed doubt about the official explanation.","gap":{"accepted":["sowed"],"start":12,"end":17}}
-{"id":"ex_293","collocation_id":"en_sow_the_seeds_of","sentence":"The scandal sowed the seeds of a much larger crisis.","gap":{"accepted":["sowed"],"start":12,"end":17}}
+{"id":"ex_290","collocation_id":"en_sow_discord","sentence":"The speech sowed discord within the party.","gap":{"accepted":["sowed","sows"],"start":11,"end":16}}
+{"id":"ex_291","collocation_id":"en_sow_confusion","sentence":"The contradictory instructions sowed confusion among the staff.","gap":{"accepted":["sowed","sow"],"start":31,"end":36}}
+{"id":"ex_292","collocation_id":"en_sow_doubt","sentence":"The article sowed doubt about the official explanation.","gap":{"accepted":["sowed","sows"],"start":12,"end":17}}
+{"id":"ex_293","collocation_id":"en_sow_the_seeds_of","sentence":"The scandal sowed the seeds of a much larger crisis.","gap":{"accepted":["sowed","sows"],"start":12,"end":17}}
 {"id":"ex_294","collocation_id":"en_foment_unrest","sentence":"The agitators were accused of fomenting unrest.","gap":{"accepted":["fomenting"],"start":30,"end":39}}
 {"id":"ex_295","collocation_id":"en_foment_rebellion","sentence":"The pamphlets were intended to foment rebellion.","gap":{"accepted":["foment"],"start":31,"end":37}}
-{"id":"ex_296","collocation_id":"en_foment_discord","sentence":"His remarks only fomented discord between the two groups.","gap":{"accepted":["fomented"],"start":17,"end":25}}
-{"id":"ex_297","collocation_id":"en_fan_the_flames","sentence":"The inflammatory speech fanned the flames of anger.","gap":{"accepted":["fanned"],"start":24,"end":30}}
-{"id":"ex_298","collocation_id":"en_fan_resentment","sentence":"The decision fanned resentment among local residents.","gap":{"accepted":["fanned"],"start":13,"end":19}}
-{"id":"ex_299","collocation_id":"en_fan_suspicion","sentence":"His evasive answers fanned suspicion.","gap":{"accepted":["fanned"],"start":20,"end":26}}
-{"id":"ex_300","collocation_id":"en_inflame_passions","sentence":"The speech inflamed passions on both sides.","gap":{"accepted":["inflamed"],"start":11,"end":19}}
-{"id":"ex_301","collocation_id":"en_inflame_tensions","sentence":"The border incident inflamed tensions between the two countries.","gap":{"accepted":["inflamed"],"start":20,"end":28}}
-{"id":"ex_302","collocation_id":"en_provoke_outrage","sentence":"The images provoked outrage around the world.","gap":{"accepted":["provoked"],"start":11,"end":19}}
-{"id":"ex_303","collocation_id":"en_provoke_a_reaction","sentence":"The announcement provoked an immediate reaction.","gap":{"accepted":["provoked"],"start":17,"end":25}}
-{"id":"ex_304","collocation_id":"en_provoke_debate","sentence":"The proposal provoked debate across the industry.","gap":{"accepted":["provoked"],"start":13,"end":21}}
-{"id":"ex_305","collocation_id":"en_provoke_hostility","sentence":"The attack provoked hostility toward the minority community.","gap":{"accepted":["provoked"],"start":11,"end":19}}
-{"id":"ex_306","collocation_id":"en_arouse_suspicion","sentence":"His sudden wealth aroused suspicion.","gap":{"accepted":["aroused"],"start":18,"end":25}}
-{"id":"ex_307","collocation_id":"en_arouse_interest","sentence":"The discovery aroused considerable interest among historians.","gap":{"accepted":["aroused"],"start":14,"end":21}}
-{"id":"ex_308","collocation_id":"en_arouse_indignation","sentence":"The ruling aroused indignation among campaigners.","gap":{"accepted":["aroused"],"start":11,"end":18}}
-{"id":"ex_309","collocation_id":"en_arouse_curiosity","sentence":"The locked room aroused her curiosity.","gap":{"accepted":["aroused"],"start":16,"end":23}}
-{"id":"ex_310","collocation_id":"en_kindle_hope","sentence":"The first positive results kindled hope among the researchers.","gap":{"accepted":["kindled"],"start":27,"end":34}}
-{"id":"ex_311","collocation_id":"en_kindle_interest","sentence":"The exhibition kindled his interest in archaeology.","gap":{"accepted":["kindled"],"start":15,"end":22}}
-{"id":"ex_312","collocation_id":"en_kindle_resentment","sentence":"The unequal treatment kindled resentment among the workers.","gap":{"accepted":["kindled"],"start":22,"end":29}}
-{"id":"ex_313","collocation_id":"en_kindle_enthusiasm","sentence":"Her speech kindled enthusiasm for the project.","gap":{"accepted":["kindled"],"start":11,"end":18}}
-{"id":"ex_314","collocation_id":"en_whet_the_appetite","sentence":"The opening chapter whetted my appetite for the rest of the book.","gap":{"accepted":["whetted"],"start":20,"end":27}}
-{"id":"ex_315","collocation_id":"en_whet_ones_curiosity","sentence":"The strange message whetted her curiosity.","gap":{"accepted":["whetted"],"start":20,"end":27}}
-{"id":"ex_316","collocation_id":"en_pique_ones_interest","sentence":"The discovery piqued his interest in local history.","gap":{"accepted":["piqued"],"start":14,"end":20}}
-{"id":"ex_317","collocation_id":"en_pique_ones_curiosity","sentence":"The unanswered question piqued everyone's curiosity.","gap":{"accepted":["piqued"],"start":24,"end":30}}
-{"id":"ex_318","collocation_id":"en_excite_comment","sentence":"The proposal excited considerable comment in the press.","gap":{"accepted":["excited"],"start":13,"end":20}}
+{"id":"ex_296","collocation_id":"en_foment_discord","sentence":"His remarks only fomented discord between the two groups.","gap":{"accepted":["fomented","foments"],"start":17,"end":25}}
+{"id":"ex_297","collocation_id":"en_fan_the_flames","sentence":"The inflammatory speech fanned the flames of anger.","gap":{"accepted":["fanned","fans"],"start":24,"end":30}}
+{"id":"ex_298","collocation_id":"en_fan_resentment","sentence":"The decision fanned resentment among local residents.","gap":{"accepted":["fanned","fans"],"start":13,"end":19}}
+{"id":"ex_299","collocation_id":"en_fan_suspicion","sentence":"His evasive answers fanned suspicion.","gap":{"accepted":["fanned","fan"],"start":20,"end":26}}
+{"id":"ex_300","collocation_id":"en_inflame_passions","sentence":"The speech inflamed passions on both sides.","gap":{"accepted":["inflamed","inflames"],"start":11,"end":19}}
+{"id":"ex_301","collocation_id":"en_inflame_tensions","sentence":"The border incident inflamed tensions between the two countries.","gap":{"accepted":["inflamed","inflames"],"start":20,"end":28}}
+{"id":"ex_302","collocation_id":"en_provoke_outrage","sentence":"The images provoked outrage around the world.","gap":{"accepted":["provoked","provoke"],"start":11,"end":19}}
+{"id":"ex_303","collocation_id":"en_provoke_a_reaction","sentence":"The announcement provoked an immediate reaction.","gap":{"accepted":["provoked","provokes"],"start":17,"end":25}}
+{"id":"ex_304","collocation_id":"en_provoke_debate","sentence":"The proposal provoked debate across the industry.","gap":{"accepted":["provoked","provokes"],"start":13,"end":21}}
+{"id":"ex_305","collocation_id":"en_provoke_hostility","sentence":"The attack provoked hostility toward the minority community.","gap":{"accepted":["provoked","provokes"],"start":11,"end":19}}
+{"id":"ex_306","collocation_id":"en_arouse_suspicion","sentence":"His sudden wealth aroused suspicion.","gap":{"accepted":["aroused","arouses"],"start":18,"end":25}}
+{"id":"ex_307","collocation_id":"en_arouse_interest","sentence":"The discovery aroused considerable interest among historians.","gap":{"accepted":["aroused","arouses"],"start":14,"end":21}}
+{"id":"ex_308","collocation_id":"en_arouse_indignation","sentence":"The ruling aroused indignation among campaigners.","gap":{"accepted":["aroused","arouses"],"start":11,"end":18}}
+{"id":"ex_309","collocation_id":"en_arouse_curiosity","sentence":"The locked room aroused her curiosity.","gap":{"accepted":["aroused","arouses"],"start":16,"end":23}}
+{"id":"ex_310","collocation_id":"en_kindle_hope","sentence":"The first positive results kindled hope among the researchers.","gap":{"accepted":["kindled","kindle"],"start":27,"end":34}}
+{"id":"ex_311","collocation_id":"en_kindle_interest","sentence":"The exhibition kindled his interest in archaeology.","gap":{"accepted":["kindled","kindles"],"start":15,"end":22}}
+{"id":"ex_312","collocation_id":"en_kindle_resentment","sentence":"The unequal treatment kindled resentment among the workers.","gap":{"accepted":["kindled","kindles"],"start":22,"end":29}}
+{"id":"ex_313","collocation_id":"en_kindle_enthusiasm","sentence":"Her speech kindled enthusiasm for the project.","gap":{"accepted":["kindled","kindles"],"start":11,"end":18}}
+{"id":"ex_314","collocation_id":"en_whet_the_appetite","sentence":"The opening chapter whetted my appetite for the rest of the book.","gap":{"accepted":["whetted","whets"],"start":20,"end":27}}
+{"id":"ex_315","collocation_id":"en_whet_ones_curiosity","sentence":"The strange message whetted her curiosity.","gap":{"accepted":["whetted","whets"],"start":20,"end":27}}
+{"id":"ex_316","collocation_id":"en_pique_ones_interest","sentence":"The discovery piqued his interest in local history.","gap":{"accepted":["piqued","piques"],"start":14,"end":20}}
+{"id":"ex_317","collocation_id":"en_pique_ones_curiosity","sentence":"The unanswered question piqued everyone's curiosity.","gap":{"accepted":["piqued","piques"],"start":24,"end":30}}
+{"id":"ex_318","collocation_id":"en_excite_comment","sentence":"The proposal excited considerable comment in the press.","gap":{"accepted":["excited","excites"],"start":13,"end":20}}
 {"id":"ex_319","collocation_id":"en_invite_criticism","sentence":"Such a vague policy is bound to invite criticism.","gap":{"accepted":["invite"],"start":32,"end":38}}
-{"id":"ex_320","collocation_id":"en_invite_comparison","sentence":"The two novels inevitably invite comparison.","gap":{"accepted":["invite"],"start":26,"end":32}}
-{"id":"ex_321","collocation_id":"en_invite_speculation","sentence":"The unexplained delay invited speculation.","gap":{"accepted":["invited"],"start":22,"end":29}}
-{"id":"ex_322","collocation_id":"en_invite_ridicule","sentence":"His pompous speech invited ridicule.","gap":{"accepted":["invited"],"start":19,"end":26}}
+{"id":"ex_320","collocation_id":"en_invite_comparison","sentence":"The two novels inevitably invite comparison.","gap":{"accepted":["invite","invited"],"start":26,"end":32}}
+{"id":"ex_321","collocation_id":"en_invite_speculation","sentence":"The unexplained delay invited speculation.","gap":{"accepted":["invited","invites"],"start":22,"end":29}}
+{"id":"ex_322","collocation_id":"en_invite_ridicule","sentence":"His pompous speech invited ridicule.","gap":{"accepted":["invited","invites"],"start":19,"end":26}}
