@@ -33,6 +33,18 @@ a {
   padding: clamp(7rem, 20vh, 12rem) 0 4rem;
 }
 
+@media (max-width: 40rem) {
+  .shell {
+    width: min(100% - 2rem, 42rem);
+    padding-top: 4.5rem;
+  }
+
+  .language-selector {
+    top: 1rem;
+    right: 1rem;
+  }
+}
+
 .language-selector {
   position: absolute;
   top: 1.5rem;
@@ -203,6 +215,17 @@ h1 {
   margin: 0;
   border: 0;
   cursor: pointer;
+}
+
+.quiz-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.quiz-actions .text-button {
+  margin-top: 0;
 }
 
 .difficulty {

@@ -228,9 +228,16 @@ export default function Quiz({ exercises, lang }: { exercises: QuizExercise[]; l
               : <span key={start}>{content}</span>;
           })}
         </p>
-        <button className="button" disabled={result !== null || !answer.trim()} type="submit">
-          {text.check}
-        </button>
+        <div className="quiz-actions">
+          <button className="button" disabled={result !== null || !answer.trim()} type="submit">
+            {text.check}
+          </button>
+          {result !== null && (
+            <button className="text-button" onClick={nextQuestion} type="button">
+              {text.next} →
+            </button>
+          )}
+        </div>
       </form>
 
       {result !== null && (
@@ -255,7 +262,6 @@ export default function Quiz({ exercises, lang }: { exercises: QuizExercise[]; l
               ))}
             </ul>
           </div>
-          <button className="text-button" onClick={nextQuestion} type="button">{text.next} →</button>
         </div>
       )}
 
