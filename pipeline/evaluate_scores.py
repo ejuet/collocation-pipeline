@@ -1,4 +1,4 @@
-"""Print incorrect top predictions and overall top-1 accuracy."""
+"""Print incorrect top predictions and overall accepted top-1 accuracy."""
 
 import argparse
 import json
@@ -23,12 +23,16 @@ def main() -> None:
 
     for score in scores:
         exercise = exercises[score["exercise_id"]]
-        expected = exercise["gap"]["text"]
+        accepted = exercise["gap"]["accepted"]
+        accepted_casefolded = {answer.casefold() for answer in accepted}
         predicted = score["scoring"]["predictions"][0]["word"]
-        if expected.casefold() == predicted.casefold():
+        if predicted.casefold() in accepted_casefolded:
             correct += 1
         else:
-            print(f'{exercise["sentence"]} | expected: {expected} | predicted: {predicted}')
+            print(
+                f'{exercise["sentence"]} | accepted: {", ".join(accepted)}'
+                f" | predicted: {predicted}"
+            )
 
     print(f"Top-1 accuracy: {correct / len(scores):.1%} ({correct}/{len(scores)})")
 
