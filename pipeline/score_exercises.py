@@ -25,7 +25,7 @@ def main() -> None:
     parser.add_argument(
         "--predictor",
         choices=("distilbert", "bert-large-wwm", "t5", "flan-t5-base"),
-        default="t5",
+        default="bert-large-wwm",
     )
     args = parser.parse_args()
 
