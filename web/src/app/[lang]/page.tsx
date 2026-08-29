@@ -9,7 +9,7 @@ const translations = {
     title: "FluentGap",
     description: (
       <>
-        Learn common collocations and make your English or German sound more natural and precise. <b>Beat the AI</b> by choosing the word that fits best instead of one that is simply good enough.
+        Learn common word combinations and make your English or German sound more natural and precise. Choose the word that fits best, but other good suggestions can earn points too.
       </>
     ),
     quiz: "Start the quiz",
@@ -20,7 +20,7 @@ const translations = {
     title: "FluentGap",
     description: (
       <>
-        Lerne häufige Kollokationen und drücke dich auf Englisch oder Deutsch natürlicher und genauer aus. <b>Schlag die KI</b>, indem du das Wort wählst, das wirklich passt, statt eines, das nur ungefähr stimmt.
+        Lerne häufig vorkommende Wortkombinationen und drücke dich auf Englisch oder Deutsch natürlicher und genauer aus. Wähle das Wort, das am besten passt, aber auch andere gute Vorschläge können Punkte bringen.
       </>
     ),
     quiz: "Quiz starten",
