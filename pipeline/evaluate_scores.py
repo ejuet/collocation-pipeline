@@ -25,13 +25,14 @@ def main() -> None:
         exercise = exercises[score["exercise_id"]]
         accepted = exercise["gap"]["accepted"]
         accepted_casefolded = {answer.casefold() for answer in accepted}
-        predicted = score["scoring"]["predictions"][0]["word"]
+        predictions = score["scoring"]["predictions"]
+        predicted = predictions[0]["word"] if predictions else ""
         if predicted.casefold() in accepted_casefolded:
             correct += 1
         else:
             print(
                 f'{exercise["sentence"]} | accepted: {", ".join(accepted)}'
-                f" | predicted: {predicted}"
+                f' | predicted: {predicted or "<none>"}'
             )
 
     print(f"Top-1 accuracy: {correct / len(scores):.1%} ({correct}/{len(scores)})")
