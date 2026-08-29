@@ -4,6 +4,7 @@ import path from "node:path";
 export type Exercise = {
   id: string;
   collocation_id: string;
+  difficulty: number;
   sentence: string;
   gap: { accepted: string[]; start: number; end: number };
   collocation_ranges: Array<{ start: number; end: number }>;

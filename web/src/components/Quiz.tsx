@@ -29,6 +29,10 @@ const copy = {
     stats: "Score so far",
     reachable: "reachable",
     reset: "Reset statistics",
+    difficulty: "Difficulty",
+    easy: "Easy",
+    medium: "Medium",
+    hard: "Hard",
   },
   de: {
     placeholder: "Deine Antwort",
@@ -44,11 +48,21 @@ const copy = {
     stats: "Dein Spielstand",
     reachable: "erreichbar",
     reset: "Statistik zurücksetzen",
+    difficulty: "Schwierigkeit",
+    easy: "Leicht",
+    medium: "Mittel",
+    hard: "Schwer",
   },
 } as const;
 
 function normalise(value: string) {
   return value.trim().toLocaleLowerCase();
+}
+
+function difficultyLevel(difficulty: number): "easy" | "medium" | "hard" {
+  if(difficulty <= 2) return "easy";
+  if(difficulty <= 5) return "medium";
+  return "hard";
 }
 
 function isAcceptedAnswer(exercise: QuizExercise, value: string) {
@@ -85,6 +99,7 @@ export default function Quiz({ exercises, lang }: { exercises: QuizExercise[]; l
   const answerInput = useRef<HTMLInputElement>(null);
   const text = copy[lang];
   const exercise = exercises[index];
+  const difficulty = difficultyLevel(exercise.difficulty);
   const breakpoints = [...new Set([
     0,
     exercise.sentence.length,
@@ -181,6 +196,9 @@ export default function Quiz({ exercises, lang }: { exercises: QuizExercise[]; l
   return (
     <section className="quiz" aria-live="polite">
       <form className="answer-form" onSubmit={submit}>
+        <p className={`difficulty difficulty-${difficulty}`}>
+          {text.difficulty}: <strong>{exercise.difficulty}/10 · {text[difficulty]}</strong>
+        </p>
         <p className="gap-text">
           {breakpoints.slice(0, -1).map((start, partIndex) => {
             const end = breakpoints[partIndex + 1];
