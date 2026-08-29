@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 type LanguageSelectorProps = {
   lang: "en" | "de";
   path?: string;
@@ -18,7 +20,7 @@ export default function LanguageSelector({
       <ul>
         {Object.entries(languages).map(([language, label]) => (
           <li key={language}>
-            <a href={`/${language}${path}`}>{label}</a>
+            <Link href={`/${language}${path}`}>{label}</Link>
           </li>
         ))}
       </ul>
