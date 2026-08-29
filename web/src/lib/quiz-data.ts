@@ -42,14 +42,15 @@ function readJsonLines<T>(fileName: string): T[] {
 }
 
 export function getQuizExercises(language: string): QuizExercise[] {
+  const suffix = language === "de" ? "_de" : "";
   const scores = new Map(
-    readJsonLines<ScoreRecord>("scores.jsonl").map((score) => [
+    readJsonLines<ScoreRecord>(`scores${suffix}.jsonl`).map((score) => [
       score.exercise_id,
       score.scoring.predictions,
     ]),
   );
   const collocations = new Map(
-    readJsonLines<Collocation>("collocations.jsonl").map((collocation) => [
+    readJsonLines<Collocation>(`collocations${suffix}.jsonl`).map((collocation) => [
       collocation.id,
       {
         language: collocation.language,
@@ -59,7 +60,7 @@ export function getQuizExercises(language: string): QuizExercise[] {
     ]),
   );
 
-  return readJsonLines<Exercise>("exercises.jsonl").flatMap((exercise) => {
+  return readJsonLines<Exercise>(`exercises${suffix}.jsonl`).flatMap((exercise) => {
     const predictions = scores.get(exercise.id);
     const collocation = collocations.get(exercise.collocation_id);
     return predictions && collocation?.language === language
