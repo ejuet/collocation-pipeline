@@ -4,43 +4,45 @@ import { FormEvent, Fragment, useEffect, useRef, useState } from "react";
 import type { QuizExercise } from "@/lib/quiz-data";
 
 type Stats = {
-  userCorrect: number;
-  userTotal: number;
-  aiCorrect: number;
-  aiTotal: number;
+  points: number;
+  reachablePoints: number;
 };
 
-const STORAGE_KEY = "fluentgap-quiz-stats";
+const STORAGE_KEY = "fluentgap-quiz-points-v2";
 const ASKED_KEY = "fluentgap-asked-exercises";
-const emptyStats: Stats = { userCorrect: 0, userTotal: 0, aiCorrect: 0, aiTotal: 0 };
+const MAX_POINTS = 100;
+const MAX_SUGGESTION_POINTS = 75;
+const emptyStats: Stats = { points: 0, reachablePoints: 0 };
 
 const copy = {
   en: {
     placeholder: "Your answer",
     check: "Check answer",
-    correct: "Correct.",
-    incorrect: "Not quite.",
+    correct: "Correct — 100 points.",
+    incorrect: "Not the accepted answer.",
     answer: "Accepted answer",
-    ai: "AI responses",
-    score: "score",
+    ai: "AI suggestions",
+    points: "points",
+    earned: "You earned",
+    matched: "Your answer",
     next: "Next question",
     stats: "Score so far",
-    you: "You",
-    model: "AI",
+    reachable: "reachable",
     reset: "Reset statistics",
   },
   de: {
     placeholder: "Deine Antwort",
     check: "Antwort prüfen",
-    correct: "Richtig.",
-    incorrect: "Leider nicht.",
+    correct: "Richtig — 100 Punkte.",
+    incorrect: "Nicht die akzeptierte Antwort.",
     answer: "Akzeptierte Antwort",
-    ai: "KI-Antworten",
-    score: "Punktzahl",
+    ai: "KI-Vorschläge",
+    points: "Punkte",
+    earned: "Du hast",
+    matched: "Deine Antwort",
     next: "Nächste Frage",
     stats: "Dein Spielstand",
-    you: "Du",
-    model: "KI",
+    reachable: "erreichbar",
     reset: "Statistik zurücksetzen",
   },
 } as const;
@@ -49,11 +51,36 @@ function normalise(value: string) {
   return value.trim().toLocaleLowerCase();
 }
 
+function isAcceptedAnswer(exercise: QuizExercise, value: string) {
+  return exercise.gap.accepted.some((accepted) => normalise(accepted) === normalise(value));
+}
+
+function pointsForPrediction(exercise: QuizExercise, prediction: QuizExercise["predictions"][number]) {
+  if(isAcceptedAnswer(exercise, prediction.word)) return MAX_POINTS;
+
+  const strongestScore = Math.max(...exercise.predictions.map((item) => item.score), 0);
+  if(strongestScore === 0) return 0;
+
+  // Suggested alternatives remain worthwhile, but the accepted answer always
+  // has the highest value. Scores are scaled to the AI's strongest suggestion.
+  return Math.max(1, Math.round((prediction.score / strongestScore) * MAX_SUGGESTION_POINTS));
+}
+
+function pointsForAnswer(exercise: QuizExercise, value: string) {
+  if(isAcceptedAnswer(exercise, value)) return MAX_POINTS;
+
+  const matchingPrediction = exercise.predictions.find(
+    (prediction) => normalise(prediction.word) === normalise(value),
+  );
+  return matchingPrediction ? pointsForPrediction(exercise, matchingPrediction) : 0;
+}
+
 export default function Quiz({ exercises, lang }: { exercises: QuizExercise[]; lang: "en" | "de" }) {
   const [index, setIndex] = useState(0);
   const askedIds = useRef<string[]>([]);
   const [answer, setAnswer] = useState("");
   const [result, setResult] = useState<boolean | null>(null);
+  const [earnedPoints, setEarnedPoints] = useState(0);
   const [stats, setStats] = useState<Stats>(emptyStats);
   const answerInput = useRef<HTMLInputElement>(null);
   const text = copy[lang];
@@ -111,20 +138,15 @@ export default function Quiz({ exercises, lang }: { exercises: QuizExercise[]; l
     event.preventDefault();
     if(!answer.trim() || result !== null) return;
 
-    const userCorrect = exercise.gap.accepted.some(
-      (accepted) => normalise(accepted) === normalise(answer),
-    );
-    const aiCorrect = exercise.gap.accepted.some(
-      (accepted) => normalise(accepted) === normalise(exercise.predictions[0]?.word ?? ""),
-    );
+    const userCorrect = isAcceptedAnswer(exercise, answer);
+    const answerPoints = pointsForAnswer(exercise, answer);
     const nextStats = {
-      userCorrect: stats.userCorrect + Number(userCorrect),
-      userTotal: stats.userTotal + 1,
-      aiCorrect: stats.aiCorrect + Number(aiCorrect),
-      aiTotal: stats.aiTotal + 1,
+      points: stats.points + answerPoints,
+      reachablePoints: stats.reachablePoints + MAX_POINTS,
     };
 
     setResult(userCorrect);
+    setEarnedPoints(answerPoints);
     setStats(nextStats);
     window.localStorage.setItem(STORAGE_KEY, JSON.stringify(nextStats));
   }
@@ -133,6 +155,7 @@ export default function Quiz({ exercises, lang }: { exercises: QuizExercise[]; l
     selectQuestion();
     setAnswer("");
     setResult(null);
+    setEarnedPoints(0);
     window.requestAnimationFrame(() => answerInput.current?.focus());
   }
 
@@ -193,9 +216,11 @@ export default function Quiz({ exercises, lang }: { exercises: QuizExercise[]; l
       </form>
 
       {result !== null && (
-        <div className={`quiz-result ${result ? "is-correct" : "is-incorrect"}`}>
+        <div className={`quiz-result ${result ? "is-correct" : earnedPoints ? "is-points" : "is-incorrect"}`}>
           <p>
-            {result ? text.correct : <>{text.incorrect} {text.answer}: <strong>{exercise.gap.accepted.join(" / ")}</strong></>}
+            {result
+              ? text.correct
+              : <>{text.incorrect} {text.earned} <strong>{earnedPoints} {text.points}</strong>. {text.answer}: <strong>{exercise.gap.accepted.join(" / ")}</strong></>}
           </p>
           <p className="collocation-detail">“{exercise.collocation.phrase}” - {exercise.collocation.meaning}</p>
           <div className="responses">
@@ -203,7 +228,11 @@ export default function Quiz({ exercises, lang }: { exercises: QuizExercise[]; l
             <ul>
               {exercise.predictions.map((prediction) => (
                 <li key={prediction.word}>
-                  <span>{prediction.word}</span><span>{text.score} {prediction.score.toFixed(3)}</span>
+                  <span>
+                    {prediction.word}
+                    {normalise(prediction.word) === normalise(answer) && <strong className="answer-match">✓ {text.matched}</strong>}
+                  </span>
+                  <span>{pointsForPrediction(exercise, prediction)} {text.points}</span>
                 </li>
               ))}
             </ul>
@@ -214,7 +243,7 @@ export default function Quiz({ exercises, lang }: { exercises: QuizExercise[]; l
 
       <div className="stats-row">
         <p className="quiz-stats">
-          {text.stats}: {text.you} {stats.userCorrect}/{stats.userTotal} · {text.model} {stats.aiCorrect}/{stats.aiTotal}
+          {text.stats}: {stats.points} {text.points} · {stats.reachablePoints} {text.reachable}
         </p>
         <button className="reset-button" onClick={resetStats} type="button">{text.reset}</button>
       </div>

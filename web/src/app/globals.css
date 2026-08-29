@@ -220,6 +220,11 @@ h1 {
   background: #fff4ef;
 }
 
+.quiz-result.is-points {
+  border-color: #9b7226;
+  background: #fff9e8;
+}
+
 .responses {
   margin-top: 1rem;
 }
@@ -247,6 +252,12 @@ h1 {
   justify-content: space-between;
   gap: 1rem;
   padding: 0.15rem 0;
+}
+
+.answer-match {
+  margin-left: 0.5rem;
+  color: var(--accent);
+  font-size: 0.8em;
 }
 
 .text-button {
