@@ -26,6 +26,7 @@ type ScoreRecord = {
 
 type Collocation = {
   id: string;
+  language: string;
   phrase: string;
   meaning: string;
 };
@@ -39,7 +40,7 @@ function readJsonLines<T>(fileName: string): T[] {
     .map((line) => JSON.parse(line) as T);
 }
 
-export function getQuizExercises(): QuizExercise[] {
+export function getQuizExercises(language: string): QuizExercise[] {
   const scores = new Map(
     readJsonLines<ScoreRecord>("scores.jsonl").map((score) => [
       score.exercise_id,
@@ -49,13 +50,19 @@ export function getQuizExercises(): QuizExercise[] {
   const collocations = new Map(
     readJsonLines<Collocation>("collocations.jsonl").map((collocation) => [
       collocation.id,
-      { phrase: collocation.phrase, meaning: collocation.meaning },
+      {
+        language: collocation.language,
+        phrase: collocation.phrase,
+        meaning: collocation.meaning,
+      },
     ]),
   );
 
   return readJsonLines<Exercise>("exercises.jsonl").flatMap((exercise) => {
     const predictions = scores.get(exercise.id);
     const collocation = collocations.get(exercise.collocation_id);
-    return predictions && collocation ? [{ ...exercise, predictions, collocation }] : [];
+    return predictions && collocation?.language === language
+      ? [{ ...exercise, predictions, collocation }]
+      : [];
   });
 }
