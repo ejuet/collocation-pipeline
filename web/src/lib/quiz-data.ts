@@ -32,7 +32,7 @@ type Collocation = {
 };
 
 function readJsonLines<T>(fileName: string): T[] {
-  const filePath = path.join(process.cwd(), "..", "data", fileName);
+  const filePath = path.join(process.cwd(), "..", "data-quiz", fileName);
 
   return readFileSync(filePath, "utf8")
     .trim()
