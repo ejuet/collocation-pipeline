@@ -51,7 +51,7 @@ function normalise(value: string) {
 
 export default function Quiz({ exercises, lang }: { exercises: QuizExercise[]; lang: "en" | "de" }) {
   const [index, setIndex] = useState(0);
-  const [askedIds, setAskedIds] = useState<string[]>([]);
+  const askedIds = useRef<string[]>([]);
   const [answer, setAnswer] = useState("");
   const [result, setResult] = useState<boolean | null>(null);
   const [stats, setStats] = useState<Stats>(emptyStats);
@@ -87,20 +87,23 @@ export default function Quiz({ exercises, lang }: { exercises: QuizExercise[]; l
       window.localStorage.removeItem(ASKED_KEY);
     }
 
-    selectQuestion(previousIds);
+    askedIds.current = previousIds;
+    selectQuestion();
     // Select the first random question once browser storage is available.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  function selectQuestion(previousIds: string[]) {
-    const used = new Set(previousIds);
+  function selectQuestion() {
+    const used = new Set(askedIds.current);
     const available = exercises.filter((item) => !used.has(item.id));
     const pool = available.length ? available : exercises;
     const next = pool[Math.floor(Math.random() * pool.length)];
     const nextIds = available.length ? [...used, next.id] : [next.id];
 
+    // Keep this in a ref as well as storage. State updates are asynchronous, so
+    // a second selection before React renders must still see this question.
+    askedIds.current = nextIds;
     setIndex(exercises.indexOf(next));
-    setAskedIds(nextIds);
     window.localStorage.setItem(ASKED_KEY, JSON.stringify(nextIds));
   }
 
@@ -127,7 +130,7 @@ export default function Quiz({ exercises, lang }: { exercises: QuizExercise[]; l
   }
 
   function nextQuestion() {
-    selectQuestion(askedIds);
+    selectQuestion();
     setAnswer("");
     setResult(null);
     window.requestAnimationFrame(() => answerInput.current?.focus());
@@ -145,7 +148,7 @@ export default function Quiz({ exercises, lang }: { exercises: QuizExercise[]; l
     return () => window.removeEventListener("keydown", handleKeyDown);
     // `nextQuestion` is recreated on render; the values it uses are included here.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [result, askedIds]);
+  }, [result]);
 
   function resetStats() {
     setStats(emptyStats);
