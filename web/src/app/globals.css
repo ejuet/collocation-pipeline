@@ -155,6 +155,10 @@ h1 {
   text-underline-offset: 0.2em;
 }
 
+.home-link {
+  margin-bottom: 1rem;
+}
+
 .quiz {
   margin-top: 2rem;
 }
