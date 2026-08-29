@@ -6,6 +6,7 @@ from pathlib import Path
 
 from tqdm import tqdm
 
+from bert_large_wwm import BertLargeWwmPredictor
 from distilbert import DistilBertPredictor
 from flan_t5 import FlanT5Predictor
 from t5 import T5Predictor
@@ -23,7 +24,7 @@ def main() -> None:
     parser.add_argument("--batch-size", type=int, default=16)
     parser.add_argument(
         "--predictor",
-        choices=("distilbert", "t5", "flan-t5-base"),
+        choices=("distilbert", "bert-large-wwm", "t5", "flan-t5-base"),
         default="t5",
     )
     args = parser.parse_args()
@@ -35,6 +36,8 @@ def main() -> None:
         predictor = T5Predictor()
     elif args.predictor == "flan-t5-base":
         predictor = FlanT5Predictor()
+    elif args.predictor == "bert-large-wwm":
+        predictor = BertLargeWwmPredictor()
     else:
         predictor = DistilBertPredictor()
     with args.output.open("w") as output:
