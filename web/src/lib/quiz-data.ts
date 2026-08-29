@@ -6,6 +6,7 @@ export type Exercise = {
   collocation_id: string;
   sentence: string;
   gap: { accepted: string[]; start: number; end: number };
+  collocation_ranges: Array<{ start: number; end: number }>;
 };
 
 export type Prediction = {

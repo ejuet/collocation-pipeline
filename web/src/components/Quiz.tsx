@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, useEffect, useMemo, useRef, useState } from "react";
+import { FormEvent, Fragment, useEffect, useRef, useState } from "react";
 import type { QuizExercise } from "@/lib/quiz-data";
 
 type Stats = {
@@ -49,11 +49,6 @@ function normalise(value: string) {
   return value.trim().toLocaleLowerCase();
 }
 
-function gapSentence(exercise: QuizExercise) {
-  const { sentence, gap } = exercise;
-  return [sentence.slice(0, gap.start), sentence.slice(gap.end)] as const;
-}
-
 export default function Quiz({ exercises, lang }: { exercises: QuizExercise[]; lang: "en" | "de" }) {
   const [index, setIndex] = useState(0);
   const [askedIds, setAskedIds] = useState<string[]>([]);
@@ -63,7 +58,13 @@ export default function Quiz({ exercises, lang }: { exercises: QuizExercise[]; l
   const answerInput = useRef<HTMLInputElement>(null);
   const text = copy[lang];
   const exercise = exercises[index];
-  const [before, after] = useMemo(() => gapSentence(exercise), [exercise]);
+  const breakpoints = [...new Set([
+    0,
+    exercise.sentence.length,
+    exercise.gap.start,
+    exercise.gap.end,
+    ...exercise.collocation_ranges.flatMap((range) => [range.start, range.end]),
+  ])].sort((a, b) => a - b);
 
   useEffect(() => {
     const saved = window.localStorage.getItem(STORAGE_KEY);
@@ -155,18 +156,33 @@ export default function Quiz({ exercises, lang }: { exercises: QuizExercise[]; l
     <section className="quiz" aria-live="polite">
       <form className="answer-form" onSubmit={submit}>
         <p className="gap-text">
-          {before}<label className="sr-only" htmlFor="answer">{text.placeholder}</label><input
-            aria-label={text.placeholder}
-            autoComplete="off"
-            autoFocus
-            className="gap-input"
-            disabled={result !== null}
-            id="answer"
-            onChange={(event) => setAnswer(event.target.value)}
-            ref={answerInput}
-            size={Math.max(2, answer.length)}
-            value={answer}
-          />{after}
+          {breakpoints.slice(0, -1).map((start, partIndex) => {
+            const end = breakpoints[partIndex + 1];
+            const isGap = start === exercise.gap.start;
+            const isCollocationPart = exercise.collocation_ranges.some(
+              (range) => range.start <= start && range.end >= end,
+            );
+
+            if(isGap) {
+              return <Fragment key={`gap-${start}`}><label className="sr-only" htmlFor="answer">{text.placeholder}</label><input
+                aria-label={text.placeholder}
+                autoComplete="off"
+                autoFocus
+                className={`gap-input${isCollocationPart ? " collocation-part" : ""}`}
+                disabled={result !== null}
+                id="answer"
+                onChange={(event) => setAnswer(event.target.value)}
+                ref={answerInput}
+                size={Math.max(2, answer.length)}
+                value={answer}
+              /></Fragment>;
+            }
+
+            const content = exercise.sentence.slice(start, end);
+            return isCollocationPart
+              ? <strong key={start}>{content}</strong>
+              : <span key={start}>{content}</span>;
+          })}
         </p>
         <button className="button" disabled={result !== null || !answer.trim()} type="submit">
           {text.check}
