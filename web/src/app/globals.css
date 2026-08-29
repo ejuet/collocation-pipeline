@@ -106,6 +106,17 @@ h1 {
   line-height: 0.92;
 }
 
+.quiz-title {
+  max-width: none;
+  color: var(--accent);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
 .lead {
   max-width: 34rem;
   margin-top: 1.75rem;
@@ -142,4 +153,150 @@ h1 {
 .text-link {
   text-decoration: underline;
   text-underline-offset: 0.2em;
+}
+
+.quiz {
+  margin-top: 2rem;
+}
+
+.gap-text {
+  font-size: clamp(1.45rem, 5vw, 2rem);
+  line-height: 1.45;
+}
+
+.gap-input {
+  margin: 0 0.15em;
+  padding: 0 0.05em;
+  border: 0;
+  border-bottom: 1px solid currentColor;
+  border-radius: 0;
+  color: inherit;
+  background: transparent;
+  box-shadow: none;
+  font: inherit;
+  letter-spacing: inherit;
+  outline: none;
+}
+
+.gap-input:focus {
+  border-bottom-color: var(--accent);
+  box-shadow: none;
+}
+
+.answer-form {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+.answer-form .button {
+  margin: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.quiz-result {
+  margin-top: 1.5rem;
+  padding: 1rem 1.1rem;
+  border-left: 3px solid var(--accent);
+  background: #f0f7f1;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.55;
+}
+
+.quiz-result.is-incorrect {
+  border-color: #9c4f3c;
+  background: #fff4ef;
+}
+
+.responses {
+  margin-top: 1rem;
+}
+
+.collocation-detail {
+  margin-top: 0.75rem;
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.response-title {
+  font-weight: 700;
+}
+
+.responses ul {
+  margin-top: 0.3rem;
+  list-style: none;
+}
+
+.responses li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.15rem 0;
+}
+
+.text-button {
+  margin-top: 1rem;
+  border: 0;
+  color: var(--accent);
+  background: transparent;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.stats-row {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.quiz-stats {
+  color: #476051;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85rem;
+}
+
+.reset-button {
+  border: 0;
+  color: #476051;
+  background: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  cursor: pointer;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 34rem) {
+  .answer-form {
+    gap: 0.5rem;
+  }
+
+  .answer-form .button {
+    justify-content: center;
+  }
 }
